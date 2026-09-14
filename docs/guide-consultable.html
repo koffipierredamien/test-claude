@@ -1,0 +1,976 @@
+<title>Montage des 5 pages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ground:#F5F6F9; --surface:#FFFFFF; --surface-2:#EDEFF4;
+    --ink:#131B2A; --ink-soft:#5B6579; --ink-faint:#8C95A8;
+    --rule:#E2E6ED; --rule-strong:#CBD2DE;
+    --navy:#0B2A5B; --teal:#2E9E8F; --amber:#B98A12; --rouge:#C4453F; --violet:#5B3F8F;
+    --code-bg:#EEF1F6;
+    --shadow:0 1px 2px rgba(19,27,42,.05), 0 8px 24px -16px rgba(19,27,42,.25);
+    --display:"Archivo","Segoe UI",system-ui,sans-serif;
+    --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0D1320; --surface:#141C2A; --surface-2:#1B2433;
+      --ink:#E7EBF3; --ink-soft:#93A0B5; --ink-faint:#6C798F;
+      --rule:#243043; --rule-strong:#334157;
+      --navy:#86A9E6; --teal:#43C0AE; --amber:#D9AE45; --rouge:#E3706B; --violet:#9E84D4;
+      --code-bg:#101828;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0D1320; --surface:#141C2A; --surface-2:#1B2433;
+    --ink:#E7EBF3; --ink-soft:#93A0B5; --ink-faint:#6C798F;
+    --rule:#243043; --rule-strong:#334157;
+    --navy:#86A9E6; --teal:#43C0AE; --amber:#D9AE45; --rouge:#E3706B; --violet:#9E84D4;
+    --code-bg:#101828;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+  body{
+    background:var(--ground); color:var(--ink);
+    font-family:var(--body); font-size:16.5px; line-height:1.62;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1120px; margin:0 auto; padding-inline:22px; padding-block:0}
+
+  /* ---------- barre de navigation ---------- */
+  nav.bar{
+    position:sticky; top:0; z-index:20;
+    background:color-mix(in srgb, var(--ground) 88%, transparent);
+    backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--rule);
+  }
+  nav.bar .wrap{display:flex; align-items:center; gap:18px; flex-wrap:wrap; padding-block:9px}
+  nav.bar b{
+    font-family:var(--display); font-weight:700; font-size:12.5px;
+    letter-spacing:.08em; text-transform:uppercase; color:var(--navy);
+  }
+  nav.bar ul{display:flex; gap:2px; list-style:none; margin:0; padding:0; flex-wrap:wrap}
+  nav.bar a{
+    font-family:var(--display); font-size:12.5px; font-weight:500;
+    color:var(--ink-soft); text-decoration:none;
+    padding:5px 9px; border-radius:5px; display:block;
+  }
+  nav.bar a:hover{color:var(--navy); background:var(--surface-2)}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--teal); outline-offset:2px; border-radius:4px}
+
+  /* ---------- en-tête ---------- */
+  header.top{padding-block:54px 34px; border-bottom:1px solid var(--rule)}
+  .eyebrow{
+    font-family:var(--mono); font-size:11.5px; font-weight:500;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--teal); margin:0 0 14px;
+  }
+  h1{
+    font-family:var(--display); font-weight:700; font-size:clamp(34px,5.4vw,52px);
+    line-height:1.04; letter-spacing:-.022em; margin:0 0 18px; text-wrap:balance;
+  }
+  .chapo{font-size:19px; color:var(--ink-soft); max-width:63ch; margin:0}
+  .meta{
+    display:flex; flex-wrap:wrap; gap:0 30px; margin-top:26px;
+    font-family:var(--mono); font-size:12px; color:var(--ink-faint);
+  }
+  .meta span b{color:var(--ink); font-weight:500}
+
+  /* ---------- sections ---------- */
+  section{padding-block:46px; border-bottom:1px solid var(--rule)}
+  section:last-of-type{border-bottom:0}
+  .step{
+    display:flex; align-items:baseline; gap:14px; margin:0 0 8px;
+  }
+  .step .num{
+    font-family:var(--mono); font-size:12px; font-weight:600; color:var(--teal);
+    letter-spacing:.1em; flex:none; padding-top:2px;
+  }
+  h2{
+    font-family:var(--display); font-weight:600; font-size:clamp(23px,3vw,30px);
+    line-height:1.16; letter-spacing:-.016em; margin:0; text-wrap:balance;
+  }
+  h3{
+    font-family:var(--display); font-weight:600; font-size:17px; letter-spacing:-.008em;
+    margin:34px 0 10px; color:var(--ink);
+  }
+  h4{
+    font-family:var(--mono); font-weight:600; font-size:11.5px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--ink-faint); margin:26px 0 8px;
+  }
+  p{margin:0 0 14px; max-width:68ch}
+  ul.prose,ol.prose{margin:0 0 14px; padding-left:20px; max-width:66ch}
+  ul.prose li,ol.prose li{margin-bottom:5px}
+  strong{font-weight:600}
+  code{
+    font-family:var(--mono); font-size:.845em; background:var(--code-bg);
+    padding:1.5px 5px; border-radius:4px; color:var(--ink);
+  }
+
+  /* ---------- encadrés ---------- */
+  .note{
+    border-left:2.5px solid var(--teal); background:var(--surface);
+    padding:14px 18px; margin:18px 0; max-width:72ch; box-shadow:var(--shadow);
+  }
+  .note.warn{border-left-color:var(--rouge)}
+  .note p:last-child{margin-bottom:0}
+  .note .tag{
+    font-family:var(--mono); font-size:10.5px; font-weight:600; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--teal); display:block; margin-bottom:5px;
+  }
+  .note.warn .tag{color:var(--rouge)}
+
+  /* ---------- tableaux ---------- */
+  .scroll{overflow-x:auto; margin:16px 0; border:1px solid var(--rule); border-radius:6px; background:var(--surface)}
+  table{border-collapse:collapse; width:100%; font-family:var(--display); font-size:13.5px}
+  th,td{padding:8px 13px; text-align:left; border-bottom:1px solid var(--rule); vertical-align:top}
+  /* --ground est clair quand --navy est sombre, et l'inverse en thème sombre :
+     un seul jeton suffit donc pour rester lisible dans les trois états. */
+  thead th{
+    background:var(--navy); color:var(--ground); font-weight:600; font-size:11.5px;
+    letter-spacing:.05em; text-transform:uppercase; white-space:nowrap; border-bottom:0;
+  }
+  tbody tr:last-child td{border-bottom:0}
+  td.n,th.n{text-align:right; font-family:var(--mono); font-variant-numeric:tabular-nums; white-space:nowrap}
+  td.m{font-family:var(--mono); font-size:12.5px; white-space:nowrap}
+  .rep{
+    font-family:var(--mono); font-size:11.5px; font-weight:600; color:var(--navy);
+    white-space:nowrap;
+  }
+
+  /* ---------- code ---------- */
+  pre{
+    font-family:var(--mono); font-size:12.5px; line-height:1.62;
+    background:var(--code-bg); border:1px solid var(--rule); border-radius:6px;
+    padding:14px 16px; overflow-x:auto; margin:14px 0;
+  }
+  pre code{background:none; padding:0; font-size:inherit}
+  .dax-k{color:var(--violet); font-weight:500}
+  .dax-f{color:var(--teal)}
+  .dax-c{color:var(--ink-faint); font-style:italic}
+
+  /* ---------- plan de page (SVG) ---------- */
+  figure.plan{margin:20px 0 6px}
+  figure.plan svg{
+    display:block; width:100%; height:auto; max-width:100%;
+    border:1px solid var(--rule-strong); border-radius:5px; background:var(--surface-2);
+  }
+  figure.plan figcaption{
+    font-family:var(--mono); font-size:11.5px; color:var(--ink-faint);
+    margin-top:8px; letter-spacing:.03em;
+  }
+  .plan .zone{fill:var(--surface); stroke:var(--rule-strong); stroke-width:1.5}
+  .plan .zone.kpi{fill:color-mix(in srgb, var(--teal) 13%, var(--surface))}
+  .plan .zone.viz{fill:color-mix(in srgb, var(--navy) 11%, var(--surface))}
+  .plan .zone.nav{fill:color-mix(in srgb, var(--violet) 12%, var(--surface))}
+  .plan text{
+    font-family:"IBM Plex Mono",monospace; font-size:13px; fill:var(--ink-soft);
+    text-anchor:middle; dominant-baseline:middle;
+  }
+  .plan text.big{font-size:15px; font-weight:600; fill:var(--ink)}
+  .plan text.xy{font-size:10.5px; fill:var(--ink-faint)}
+
+  /* ---------- palette ---------- */
+  .swatches{display:flex; flex-wrap:wrap; gap:10px; margin:16px 0}
+  .sw{
+    display:flex; align-items:center; gap:9px; background:var(--surface);
+    border:1px solid var(--rule); border-radius:5px; padding:7px 12px 7px 8px;
+  }
+  .sw i{width:20px; height:20px; border-radius:3px; display:block; flex:none;
+       border:1px solid rgba(0,0,0,.12)}
+  .sw span{font-family:var(--mono); font-size:11.5px; color:var(--ink-soft)}
+  .sw b{font-family:var(--display); font-size:12.5px; font-weight:600; display:block; color:var(--ink)}
+
+  /* ---------- fichiers ---------- */
+  .files{
+    font-family:var(--mono); font-size:12.5px; line-height:1.85;
+    background:var(--surface); border:1px solid var(--rule); border-radius:6px;
+    padding:16px 18px; overflow-x:auto; margin:16px 0;
+  }
+  .files b{color:var(--navy); font-weight:600}
+  .files i{color:var(--ink-faint); font-style:normal}
+
+  /* ---------- checklist ---------- */
+  ul.check{list-style:none; padding:0; margin:14px 0; max-width:70ch}
+  ul.check li{
+    display:flex; gap:11px; align-items:flex-start; padding:9px 0;
+    border-bottom:1px solid var(--rule); font-family:var(--display); font-size:14.5px;
+  }
+  ul.check li:last-child{border-bottom:0}
+  ul.check li::before{
+    content:""; width:15px; height:15px; margin-top:3px; flex:none;
+    border:1.5px solid var(--rule-strong); border-radius:3px;
+  }
+
+  footer{padding-block:34px 50px; color:var(--ink-faint); font-family:var(--mono); font-size:11.5px}
+
+  @media (max-width:620px){
+    body{font-size:16px}
+    header.top{padding-block:34px 26px}
+    section{padding-block:34px}
+    .meta{gap:0 18px}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<nav class="bar">
+  <div class="wrap">
+    <b>Montage&nbsp;PBI</b>
+    <ul>
+      <li><a href="#principe">Principe</a></li>
+      <li><a href="#modele">Modèle</a></li>
+      <li><a href="#socle">Socle</a></li>
+      <li><a href="#p1">P1</a></li>
+      <li><a href="#p2">P2</a></li>
+      <li><a href="#p3">P3</a></li>
+      <li><a href="#p4">P4</a></li>
+      <li><a href="#p5">P5</a></li>
+      <li><a href="#fin">Finitions</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="top">
+  <div class="wrap">
+    <p class="eyebrow">Maquette SVG 1280 × 720 → Power BI Desktop</p>
+    <h1>Monter les 5 pages sur la&nbsp;maquette</h1>
+    <p class="chapo">Les coordonnées relevées dans le SVG, le modèle de données à créer de toutes
+      pièces, les mesures DAX et la marche à suivre page par page — jusqu'au visuel posé au pixel près
+      sur sa carte blanche.</p>
+    <div class="meta">
+      <span>Canevas&nbsp;: <b>1280 × 720</b></span>
+      <span>Pages&nbsp;: <b>5</b></span>
+      <span>Visuels&nbsp;: <b>13</b> + <b>31</b> KPI</span>
+      <span>Jeu de données&nbsp;: <b>11 tables</b>, 95 000 lignes</span>
+      <span>Date de référence&nbsp;: <b>08/09/2026</b></span>
+    </div>
+  </div>
+</header>
+
+<!-- ============================= PRINCIPE ============================= -->
+<section id="principe">
+  <div class="wrap">
+    <div class="step"><span class="num">00</span><h2>Le principe : découper la maquette en deux</h2></div>
+    <p>La maquette mélange deux natures d'objets. La confusion entre les deux est
+      l'erreur qui coûte le plus cher à rattraper une fois le rapport monté.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Dans le SVG</th><th>Devient</th><th>Pourquoi</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>La structure</strong><br>fond gris, cartes blanches, filets, panneaux</td>
+            <td>Image d'arrière-plan de page, figée</td>
+            <td>Rien là-dedans ne dépend des données</td>
+          </tr>
+          <tr>
+            <td><strong>Le contenu</strong><br>titres, chiffres, barres, courbes, lignes de tableau</td>
+            <td>De vrais visuels Power BI, posés par-dessus</td>
+            <td>Tout cela doit réagir aux filtres</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="note warn">
+      <span class="tag">Deux pièges d'emblée</span>
+      <p><strong>Power BI n'accepte pas le SVG en arrière-plan de page.</strong> Les formats admis
+        sont PNG, JPG, BMP et GIF. Chaque page est donc exportée en PNG&nbsp;2560 × 1440, soit 2× le
+        canevas, pour rester nette sur écran HiDPI.</p>
+      <p><strong>La maquette ne peut pas servir de fond telle quelle</strong>&nbsp;: ses faux graphes
+        resteraient visibles derrière les vrais visuels. Il faut un fond <em>nettoyé</em>, qui ne
+        garde que la structure.</p>
+    </div>
+
+    <h3>Les deux jeux d'images</h3>
+    <div class="files">
+      <b>fonds/png/</b> <i>— structure seule. C'est ce qu'on pose en arrière-plan de page.</i><br>
+      <b>fonds/reference/</b> <i>— la maquette complète. Elle ne sert pas de fond&nbsp;:</i><br>
+      <span style="padding-left:18ch"><i>on la garde ouverte à côté, comme calque de repérage.</i></span>
+    </div>
+
+    <h3>La palette relevée dans le SVG</h3>
+    <p>Neuf couleurs, pas une de plus. Elles sont déjà câblées dans le thème
+      <code>theme-dashboard.json</code> fourni&nbsp;: l'appliquer évite plusieurs centaines de clics
+      de mise en forme.</p>
+    <div class="swatches">
+      <div class="sw"><i style="background:#0B2A5B"></i><span><b>Bleu nuit</b>#0B2A5B</span></div>
+      <div class="sw"><i style="background:#2E9E8F"></i><span><b>Sarcelle</b>#2E9E8F</span></div>
+      <div class="sw"><i style="background:#5B3F8F"></i><span><b>Violet</b>#5B3F8F</span></div>
+      <div class="sw"><i style="background:#3F8F3F"></i><span><b>Vert</b>#3F8F3F</span></div>
+      <div class="sw"><i style="background:#E8734A"></i><span><b>Orange</b>#E8734A</span></div>
+      <div class="sw"><i style="background:#D9534F"></i><span><b>Rouge</b>#D9534F</span></div>
+      <div class="sw"><i style="background:#1F2937"></i><span><b>Encre</b>#1F2937</span></div>
+      <div class="sw"><i style="background:#6B7280"></i><span><b>Gris texte</b>#6B7280</span></div>
+      <div class="sw"><i style="background:#E5E7EB"></i><span><b>Filet</b>#E5E7EB</span></div>
+      <div class="sw"><i style="background:#F3F4F6"></i><span><b>Fond</b>#F3F4F6</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= MODELE ============================= -->
+<section id="modele">
+  <div class="wrap">
+    <div class="step"><span class="num">01</span><h2>Le modèle de données</h2></div>
+    <p>Aucune donnée n'existait&nbsp;: tout est fabriqué. Le vocabulaire de la maquette
+      — <em>Tribu</em>, <em>Squad</em>, <em>JH</em>, <em>Externe / Interne</em>, <em>FTE</em>,
+      <em>Portfolio</em>, budget en K€ — désigne sans ambiguïté un <strong>pilotage de capacité et de
+      portefeuille de DSI</strong>. C'est le scénario retenu. S'il ne convient pas, seuls les
+      libellés changent&nbsp;: structure, mesures et montage restent valables.</p>
+
+    <div class="note">
+      <span class="tag">Le détail qui fait tout</span>
+      <p>La maquette affiche « Dernière actualisation&nbsp;: 08/09/2026 », et son graphe mensuel
+        s'effondre après août. Le jeu de données reproduit exactement cela&nbsp;: <strong>réalisé
+        jusqu'au 31/08/2026</strong>, planifié seul au-delà. C'est ce qui produit la chute de fin
+        d'année de <span class="rep">VISUEL_02</span> — et ça ne s'invente pas après coup.</p>
+    </div>
+
+    <h3>Les 11 tables</h3>
+    <p>Trois tables de faits au centre, huit dimensions autour. Les dimensions de second rang —
+      Tribu, Squad, Société — passent par <code>D_Ressource</code>&nbsp;; Portfolio et Statut passent
+      par <code>D_Objet</code>.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Table</th><th class="n">Lignes</th><th>Grain / clé</th><th>Contenu</th></tr></thead>
+        <tbody>
+          <tr><td class="m">D_Calendrier</td><td class="n">730</td><td class="m">Date</td><td>2025-01-01 → 2026-12-31, jour ouvré, passé/futur</td></tr>
+          <tr><td class="m">D_Tribu</td><td class="n">12</td><td class="m">TribuID</td><td>Tribu A → L, domaine, ordre d'affichage</td></tr>
+          <tr><td class="m">D_Squad</td><td class="n">60</td><td class="m">SquadID</td><td>5 squads par tribu</td></tr>
+          <tr><td class="m">D_Societe</td><td class="n">7</td><td class="m">SocieteID</td><td>Société A → F + Interne</td></tr>
+          <tr><td class="m">D_Ressource</td><td class="n">1 510</td><td class="m">ResID</td><td>Type, profil, entrée/sortie, TJM, coût, FTE</td></tr>
+          <tr><td class="m">D_Portfolio</td><td class="n">18</td><td class="m">PortfolioID</td><td>Portfolio 01 → 18, segment Run / Build / Transformation</td></tr>
+          <tr><td class="m">D_Objet</td><td class="n">567</td><td class="m">ObjetID</td><td>547 demandes + 20 projets de maintenance</td></tr>
+          <tr><td class="m">D_Statut</td><td class="n">7</td><td class="m">StatutID</td><td>Statut, ordre, couleur</td></tr>
+          <tr><td class="m">F_Charge</td><td class="n">50 663</td><td class="m">mois × ressource × objet</td><td>JH planifiés, JH consommés, coût</td></tr>
+          <tr><td class="m">F_Budget</td><td class="n">12 715</td><td class="m">mois × objet</td><td>Budget initial, engagé, consommé, reste à faire</td></tr>
+          <tr><td class="m">F_Effectif</td><td class="n">30 125</td><td class="m">mois × ressource</td><td>Présence, FTE</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Les 14 relations à créer</h3>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>De</th><th>Vers</th><th>Cardinalité</th><th>État</th></tr></thead>
+        <tbody>
+          <tr><td class="m">F_Charge[Date]</td><td class="m">D_Calendrier[Date]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Charge[ResID]</td><td class="m">D_Ressource[ResID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Charge[ObjetID]</td><td class="m">D_Objet[ObjetID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Effectif[Date]</td><td class="m">D_Calendrier[Date]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Effectif[ResID]</td><td class="m">D_Ressource[ResID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Budget[Date]</td><td class="m">D_Calendrier[Date]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">F_Budget[ObjetID]</td><td class="m">D_Objet[ObjetID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Ressource[TribuID]</td><td class="m">D_Tribu[TribuID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Ressource[SquadID]</td><td class="m">D_Squad[SquadID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Ressource[SocieteID]</td><td class="m">D_Societe[SocieteID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Squad[TribuID]</td><td class="m">D_Tribu[TribuID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Objet[PortfolioID]</td><td class="m">D_Portfolio[PortfolioID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Objet[StatutID]</td><td class="m">D_Statut[StatutID]</td><td class="m">∗ → 1</td><td>active</td></tr>
+          <tr><td class="m">D_Objet[TribuID]</td><td class="m">D_Tribu[TribuID]</td><td class="m">∗ → 1</td><td><strong>inactive</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Plus deux relations inactives supplémentaires, de <code>D_Ressource[DateEntree]</code> et
+      <code>D_Ressource[DateSortie]</code> vers <code>D_Calendrier[Date]</code>, qui servent aux
+      mesures <code>Entrées</code> et <code>Sorties</code>.</p>
+
+    <h3>Pourquoi trois tables de faits</h3>
+    <p>Compter des ressources et sommer des JH ne se font pas au même grain. Avec une seule table,
+      chaque KPI d'effectif imposerait un <code>DISTINCTCOUNT</code> sur 50 000 lignes, et le moindre
+      filtre sur un objet fausserait le compte. <code>F_Effectif</code> isole la photo mensuelle de
+      l'effectif&nbsp;: les KPI des pages Capacité et Ressources redeviennent de simples sommes.</p>
+
+    <h3>Les deux chemins vers la tribu</h3>
+    <p>Une tribu se rattache aux faits de deux façons&nbsp;: par la <strong>ressource qui
+      consomme</strong>, et par la <strong>tribu propriétaire de l'objet</strong>. Power BI refusera
+      le second en actif — ambiguïté. Laissez-le <strong>inactif</strong> et activez-le à la demande.</p>
+    <pre><code><span class="dax-c">-- Pages Demandes et Projets : raisonner « tribu de l'objet »</span>
+JH consommés (tribu objet) =
+<span class="dax-f">CALCULATE</span> (
+    [JH consommés],
+    <span class="dax-f">USERELATIONSHIP</span> ( D_Objet[TribuID], D_Tribu[TribuID] )
+)</code></pre>
+    <p>La règle est simple&nbsp;: <strong>Capacité et Ressources</strong> raisonnent tribu de la
+      ressource, <strong>Demandes et Projets</strong> raisonnent tribu de l'objet.</p>
+
+    <div class="note warn">
+      <span class="tag">Grain mensuel</span>
+      <p>Les trois faits sont au mois, stockés au <strong>1<sup>er</sup> du mois</strong>. L'intelligence
+        temporelle mois / trimestre / année est exacte. <strong>Mais ne proposez jamais de segment au
+        jour</strong>&nbsp;: filtrer sur le 15 mars renverrait une valeur vide. Dans la hiérarchie de
+        dates, n'exposez qu'Année → Trimestre → Mois.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= SOCLE ============================= -->
+<section id="socle">
+  <div class="wrap">
+    <div class="step"><span class="num">02</span><h2>Le socle, avant toute page</h2></div>
+    <p>Six réglages. Les sauter fait perdre bien plus de temps qu'ils n'en coûtent.</p>
+
+    <h4>1 · Le canevas</h4>
+    <p>Page sélectionnée, aucun visuel&nbsp;: <strong>Format → Canevas → Type = Personnalisé</strong>
+      <em>(Canvas settings → Custom)</em>, <strong>1280 × 720</strong>. Puis
+      <strong>Affichage → Ajuster à la page</strong>.</p>
+    <div class="note">
+      <span class="tag">Le réglage clé</span>
+      <p>Le canevas fait alors exactement la taille du SVG. <strong>Toutes les coordonnées de ce
+        guide se reportent au pixel près</strong> dans <em>Format → Général → Propriétés →
+        Position</em>. Sans ce réglage, plus rien ne tombe juste.</p>
+    </div>
+
+    <h4>2 · Le thème</h4>
+    <p><strong>Affichage → Thème → Rechercher des thèmes</strong> → <code>theme-dashboard.json</code>.
+      Il applique la palette, supprime bordures et en-têtes de visuels, et met les en-têtes de
+      tableau en bleu nuit.</p>
+
+    <h4>3 · L'import</h4>
+    <p><strong>Accueil → Obtenir les données → Texte/CSV</strong>, les 11 fichiers.
+      Origine = <strong>UTF-8</strong>, délimiteur = <strong>point-virgule</strong>.</p>
+    <div class="note warn">
+      <span class="tag">Si les décimaux arrivent en erreur</span>
+      <p>Les CSV utilisent la virgule décimale. Clic droit sur la colonne →
+        <strong>Modifier le type → En utilisant les paramètres régionaux</strong> → Nombre décimal,
+        <strong>Français (France)</strong>.</p>
+    </div>
+
+    <h4>4 · Les relations</h4>
+    <p>Toutes en <strong>∗ → 1</strong>, filtre simple. Trois restent <strong>inactives</strong>&nbsp;:
+      <code>D_Objet[TribuID]</code>, <code>D_Ressource[DateEntree]</code> et
+      <code>D_Ressource[DateSortie]</code> vers leur cible. Puis
+      <strong>Outils de table → Marquer comme table de dates</strong> sur
+      <code>D_Calendrier[Date]</code> — sans quoi <code>SAMEPERIODLASTYEAR</code> renverra du faux.</p>
+
+    <h4>5 · Le tri par colonne</h4>
+    <p>Sans lui, « Août » se retrouve entre « Avril » et « Décembre ».
+      <strong>Colonnes → Trier par colonne</strong>&nbsp;:</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Colonne</th><th>Triée par</th></tr></thead>
+        <tbody>
+          <tr><td class="m">D_Calendrier[MoisNom]</td><td class="m">MoisNum</td></tr>
+          <tr><td class="m">D_Calendrier[MoisAbrege]</td><td class="m">MoisNum</td></tr>
+          <tr><td class="m">D_Tribu[Tribu]</td><td class="m">OrdreTribu</td></tr>
+          <tr><td class="m">D_Portfolio[Portfolio]</td><td class="m">OrdrePortfolio</td></tr>
+          <tr><td class="m">D_Statut[Statut]</td><td class="m">OrdreStatut</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>6 · Les deux gestes qui reviennent sur chaque visuel</h4>
+    <ul class="prose">
+      <li><strong>Positionner</strong>&nbsp;: Format → Général → Propriétés → <strong>Position</strong>,
+        saisir X, Y, Largeur, Hauteur.</li>
+      <li><strong>Rendre transparent</strong>&nbsp;: la carte blanche est déjà dans le fond. Général →
+        Effets → <strong>Arrière-plan</strong> et <strong>Bordure</strong> désactivés,
+        <strong>En-tête du visuel</strong> désactivé. Le thème le fait par défaut&nbsp;; vérifiez si
+        un visuel ressort en blanc opaque.</li>
+    </ul>
+
+    <h3>Poser le fond, sur chacune des 5 pages</h3>
+    <p>Aucun visuel sélectionné → Format → <strong>Arrière-plan du canevas</strong> → Parcourir →
+      <code>Pn.png</code> → Ajustement = <strong>Ajuster</strong> →
+      <strong>Transparence&nbsp;=&nbsp;0&nbsp;%</strong>.</p>
+    <div class="note warn">
+      <span class="tag">Deux confusions classiques</span>
+      <p>La transparence vaut <strong>100&nbsp;% par défaut</strong>&nbsp;: l'image reste invisible
+        tant qu'on ne la descend pas à 0. Et ne prenez pas <em>Papier peint (Wallpaper)</em>, qui
+        remplit la zone <em>autour</em> du canevas&nbsp;: c'est bien
+        <strong>Arrière-plan du canevas</strong>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= P1 ============================= -->
+<section id="p1">
+  <div class="wrap">
+    <div class="step"><span class="num">P1</span><h2>Garde et sommaire</h2></div>
+    <p>Le fond conserve tout le décor — dégradé, carte semée de points, pastilles d'icônes. Il ne
+      reste qu'à poser le texte et la navigation.</p>
+
+    <figure class="plan">
+      <svg viewBox="0 0 1280 720" role="img" aria-label="Plan de la page 1 : panneau sombre à gauche, cinq cartes de sommaire à droite">
+        <rect x="0" y="0" width="1280" height="720" fill="var(--surface-2)"/>
+        <rect class="zone nav" x="0" y="0" width="440" height="720"/>
+        <text class="big" x="220" y="300">Décor + titres</text>
+        <text x="220" y="326">zones de texte</text>
+        <rect class="zone" x="124" y="384" width="220" height="36"/>
+        <text x="234" y="402" style="font-size:11px">BOUTON_01</text>
+        <rect class="zone viz" x="481" y="73" width="757" height="71"/><text x="859" y="103">PAGE_01</text><text class="xy" x="859" y="124">481, 73 · 757 × 71</text>
+        <rect class="zone viz" x="481" y="154" width="757" height="71"/><text x="859" y="184">PAGE_02</text><text class="xy" x="859" y="205">481, 154</text>
+        <rect class="zone viz" x="481" y="235" width="757" height="71"/><text x="859" y="265">PAGE_03</text><text class="xy" x="859" y="286">481, 235</text>
+        <rect class="zone viz" x="481" y="316" width="757" height="71"/><text x="859" y="346">PAGE_04</text><text class="xy" x="859" y="367">481, 316</text>
+        <rect class="zone viz" x="481" y="397" width="757" height="71"/><text x="859" y="427">PAGE_05</text><text class="xy" x="859" y="448">481, 397</text>
+      </svg>
+      <figcaption>P1 — 5 boutons de navigation, calés sur les cartes du fond</figcaption>
+    </figure>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Élément</th><th>Type</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">RAPPORT_01 · CLIENT_1</td><td>Zone de texte</td><td class="n">40</td><td class="n">106</td><td class="n">300</td><td class="n">20</td></tr>
+          <tr><td class="rep">TITRE_RAPPORT_L1/L2</td><td>Zone de texte, 2 lignes</td><td class="n">40</td><td class="n">175</td><td class="n">380</td><td class="n">90</td></tr>
+          <tr><td class="rep">SOUS_TITRE_01</td><td>Zone de texte</td><td class="n">40</td><td class="n">288</td><td class="n">300</td><td class="n">24</td></tr>
+          <tr><td class="rep">BOUTON_01</td><td>Bouton</td><td class="n">124</td><td class="n">384</td><td class="n">220</td><td class="n">36</td></tr>
+          <tr><td class="rep">SOMMAIRE_01</td><td>Zone de texte</td><td class="n">481</td><td class="n">33</td><td class="n">300</td><td class="n">22</td></tr>
+          <tr><td class="rep">Carte PAGE_01</td><td>Bouton transparent</td><td class="n">481</td><td class="n">73</td><td class="n">757</td><td class="n">71</td></tr>
+          <tr><td class="rep">Carte PAGE_02</td><td>Bouton transparent</td><td class="n">481</td><td class="n">154</td><td class="n">757</td><td class="n">71</td></tr>
+          <tr><td class="rep">Carte PAGE_03</td><td>Bouton transparent</td><td class="n">481</td><td class="n">235</td><td class="n">757</td><td class="n">71</td></tr>
+          <tr><td class="rep">Carte PAGE_04</td><td>Bouton transparent</td><td class="n">481</td><td class="n">316</td><td class="n">757</td><td class="n">71</td></tr>
+          <tr><td class="rep">Carte PAGE_05</td><td>Bouton transparent</td><td class="n">481</td><td class="n">397</td><td class="n">757</td><td class="n">71</td></tr>
+          <tr><td class="rep">Dernière actualisation</td><td>Carte <em>(Card)</em></td><td class="n">40</td><td class="n">655</td><td class="n">320</td><td class="n">24</td></tr>
+          <tr><td class="rep">Version 1.0</td><td>Zone de texte</td><td class="n">1000</td><td class="n">655</td><td class="n">238</td><td class="n">24</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>Typographies</strong> — Segoe UI. Titre 32 pt gras blanc, sous-titre 15 pt gras blanc,
+      sur-titre 10 pt blanc à 70&nbsp;% d'opacité.</p>
+
+    <h3>Les 5 cartes de sommaire</h3>
+    <p>Chacune est un <strong>Bouton</strong> <em>(Insérer → Boutons → Vide)</em> posé exactement sur
+      la carte blanche&nbsp;: remplissage à <strong>100&nbsp;% de transparence</strong>, bordure
+      désactivée, texte activé aligné à gauche avec une marge intérieure d'environ 70&nbsp;px pour
+      dégager la pastille du fond, puis <strong>Action = Navigation de page</strong>.</p>
+    <div class="note">
+      <span class="tag">Le sous-titre</span>
+      <p>Un bouton ne gère qu'un seul niveau de texte&nbsp;: <span class="rep">DESCRIPTION_0n</span>
+        demande une zone de texte séparée, en Y + 28, hauteur 16, 8 pt, gris <code>#6B7280</code>.
+        <strong>Envoyez-la à l'arrière</strong> — sinon elle intercepte le clic et le bouton ne
+        répond plus sur cette bande.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= P2 ============================= -->
+<section id="p2">
+  <div class="wrap">
+    <div class="step"><span class="num">P2</span><h2>Capacité et charge</h2></div>
+    <p>La page la plus dense&nbsp;: 7 KPI, 3 visuels, une matrice mensuelle et 7 segments.
+      Montez-la en premier — les trois suivantes en reprennent toutes les recettes.</p>
+
+    <figure class="plan">
+      <svg viewBox="0 0 1280 720" role="img" aria-label="Plan de la page 2 : barre latérale, 7 KPI, deux graphiques, une matrice, panneau de filtres">
+        <rect x="0" y="0" width="1280" height="720" fill="var(--surface-2)"/>
+        <rect class="zone nav" x="0" y="0" width="160" height="720"/><text x="80" y="350">Navigation</text>
+        <rect class="zone" x="168" y="11" width="894" height="34"/><text x="615" y="28">TITRE_01 · SOUS_TITRE_01</text>
+        <rect class="zone nav" x="1072" y="11" width="190" height="699"/><text x="1167" y="350">7 segments</text>
+        <rect class="zone kpi" x="168" y="58" width="217" height="76"/><text x="276" y="88">KPI_01</text><text class="xy" x="276" y="108">168, 58 · 217 × 76</text>
+        <rect class="zone kpi" x="393.7" y="58" width="217" height="76"/><text x="502" y="88">KPI_02</text><text class="xy" x="502" y="108">393,7 · 58</text>
+        <rect class="zone kpi" x="619.4" y="58" width="217" height="76"/><text x="728" y="88">KPI_03</text><text class="xy" x="728" y="108">619,4 · 58</text>
+        <rect class="zone kpi" x="845.1" y="58" width="217" height="76"/><text x="954" y="88">KPI_04</text><text class="xy" x="954" y="108">845,1 · 58</text>
+        <rect class="zone kpi" x="168" y="145" width="443" height="75"/><text x="389" y="176">KPI_05 · barre 100 %</text><text class="xy" x="389" y="196">168, 145 · 443 × 75</text>
+        <rect class="zone kpi" x="620" y="145" width="217" height="75"/><text x="728" y="176">KPI_06</text><text class="xy" x="728" y="196">620, 145</text>
+        <rect class="zone kpi" x="846" y="145" width="216" height="75"/><text x="954" y="176">KPI_07</text><text class="xy" x="954" y="196">846, 145</text>
+        <rect class="zone viz" x="168" y="231" width="443" height="169"/><text class="big" x="389" y="305">VISUEL_01</text><text x="389" y="330">courbes + histogramme</text><text class="xy" x="389" y="352">168, 231 · 443 × 169</text>
+        <rect class="zone viz" x="620" y="231" width="442" height="169"/><text class="big" x="841" y="305">VISUEL_02</text><text x="841" y="330">histogramme mensuel</text><text class="xy" x="841" y="352">620, 231 · 442 × 169</text>
+        <rect class="zone viz" x="168" y="407" width="894" height="303"/><text class="big" x="615" y="545">VISUEL_03</text><text x="615" y="570">matrice — 6 niveaux de lignes × 12 mois</text><text class="xy" x="615" y="592">168, 407 · 894 × 303</text>
+      </svg>
+      <figcaption>P2 — la carte du fond donne la zone, le visuel se pose en retrait de 8 px à l'intérieur</figcaption>
+    </figure>
+
+    <h3>Bandeau et navigation</h3>
+    <p>Plutôt que six boutons à maintenir sur cinq pages, insérez un
+      <strong>Navigateur de pages</strong> <em>(Insérer → Boutons → Navigateur → Navigateur de
+      pages)</em> en <code>X=7, Y=90, L=145, H=420</code>. Il se remplit seul, gère l'état
+      sélectionné — la pastille bleue de la maquette — et se met à jour quand vous ajoutez une page.
+      Masquez les onglets techniques pour qu'ils n'y figurent pas.</p>
+
+    <h3>Les 7 KPI</h3>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Visuel</th><th>Mesure</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">KPI_01</td><td>Carte</td><td class="m">Effectif</td><td class="n">168</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_02</td><td>Carte</td><td class="m">JH consommés</td><td class="n">393,7</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_03</td><td>Carte</td><td class="m">JH restant à planifier</td><td class="n">619,4</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_04</td><td>Carte</td><td class="m">Coût consommé K€</td><td class="n">845,1</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_05</td><td>Barres empilées 100 %</td><td class="m">% coût externes / internes</td><td class="n">176</td><td class="n">172</td><td class="n">427</td><td class="n">26</td></tr>
+          <tr><td class="rep">KPI_06</td><td>Carte</td><td class="m">Sorties</td><td class="n">620</td><td class="n">145</td><td class="n">217</td><td class="n">75</td></tr>
+          <tr><td class="rep">KPI_07</td><td>Carte</td><td class="m">Entrées</td><td class="n">846</td><td class="n">145</td><td class="n">216</td><td class="n">75</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Sur chaque carte&nbsp;: <strong>Valeur de légende</strong> <em>(Callout value)</em> en Segoe UI
+      Bold <strong>22 pt</strong>, <code>#0B2A5B</code>, centrée&nbsp;;
+      <strong>Étiquette de catégorie désactivée</strong>.</p>
+
+    <div class="note">
+      <span class="tag">Le libellé ne vient pas de la carte</span>
+      <p><span class="rep">KPI_01</span> et son sous-texte se posent séparément&nbsp;: une zone de
+        texte en <code>(X+9, Y+7)</code>, 8,5 pt, <code>#6B7280</code> pour le libellé&nbsp;; une carte
+        <code>Libellé mix effectif</code> en <code>(X+9, Y+56)</code>, 200 × 16, pour le sous-texte.
+        Les pastilles rondes à icône ont été retirées avec le contenu&nbsp;: reposez-les en
+        <em>Insérer → Formes → Cercle</em>, 28 px — ou laissez-les de côté, la page tient sans.</p>
+    </div>
+
+    <h3>VISUEL_01 · Charge par tribu</h3>
+    <p><strong>Graphique en courbes et histogramme groupé</strong>, <code>176, 255, 427 × 137</code>.
+      Axe X <code>D_Tribu[Tribu]</code>&nbsp;; colonnes <code>JH planifiés</code> et
+      <code>JH consommés</code> en <code>#2E9E8F</code> / <code>#0B2A5B</code>&nbsp;; ligne
+      <code>Coût consommé K€</code>. Les deux axes Y désactivés, étiquettes de données à 7 pt,
+      légende en haut à gauche. Volet Filtres&nbsp;: <code>Tribu</code> →
+      <strong>N premiers = 7</strong> par <code>JH planifiés</code>.</p>
+
+    <h3>VISUEL_02 · Saisonnalité mensuelle</h3>
+    <p><strong>Histogramme groupé</strong>, <code>628, 255, 426 × 137</code>. Axe X
+      <code>D_Calendrier[MoisAbrege]</code>, valeurs <code>JH consommés</code>, couleur
+      <code>#2E9E8F</code>, filtre de page <code>Annee = 2026</code>.</p>
+    <div class="note">
+      <span class="tag">Pour retrouver la chute de la maquette</span>
+      <p>Septembre à décembre valent zéro&nbsp;: par défaut Power BI les <em>supprime</em> de l'axe.
+        Cliquez sur <code>MoisAbrege</code> dans le puits Axe X →
+        <strong>Afficher les éléments sans données</strong> <em>(Show items with no data)</em>. Les
+        quatre colonnes vides réapparaissent, exactement comme sur le rendu.</p>
+    </div>
+
+    <h3>VISUEL_03 · Matrice mensuelle</h3>
+    <p><strong>Matrice</strong>, <code>176, 440, 878 × 262</code>. Lignes&nbsp;: Tribu, Squad, Objet,
+      Portfolio, Priorité, Société. Colonnes&nbsp;: <code>Annee</code> puis <code>MoisAbrege</code>
+      — c'est cette hiérarchie, dépliée d'un niveau, qui produit le double bandeau d'en-tête
+      <span class="rep">COL_01</span> / <span class="rep">COL_02</span>. Valeurs&nbsp;:
+      <code>JH consommés</code>. Format → Disposition → <strong>Tabulaire</strong>, sous-totaux de
+      lignes désactivés, total général de colonnes activé.</p>
+
+    <h3>Le panneau de filtres</h3>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Champ</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">FILTRE_01</td><td class="m">D_Calendrier[Annee]</td><td class="n">1081</td><td class="n">87</td><td class="n">172</td><td class="n">21</td></tr>
+          <tr><td class="rep">FILTRE_02</td><td class="m">D_Tribu[Tribu]</td><td class="n">1081</td><td class="n">160</td><td class="n">172</td><td class="n">24</td></tr>
+          <tr><td class="rep">FILTRE_03</td><td class="m">D_Squad[Squad]</td><td class="n">1081</td><td class="n">205</td><td class="n">172</td><td class="n">24</td></tr>
+          <tr><td class="rep">FILTRE_04</td><td class="m">D_Societe[Société]</td><td class="n">1081</td><td class="n">273</td><td class="n">172</td><td class="n">24</td></tr>
+          <tr><td class="rep">FILTRE_05</td><td class="m">D_Ressource[TypeRessource]</td><td class="n">1081</td><td class="n">318</td><td class="n">172</td><td class="n">24</td></tr>
+          <tr><td class="rep">FILTRE_06</td><td class="m">D_Portfolio[Portfolio]</td><td class="n">1081</td><td class="n">386</td><td class="n">172</td><td class="n">24</td></tr>
+          <tr><td class="rep">FILTRE_07</td><td class="m">D_Objet[Statut]</td><td class="n">1081</td><td class="n">431</td><td class="n">172</td><td class="n">24</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Chacun en <strong>Style = Liste déroulante</strong>, en-tête désactivé, avec son libellé en
+      zone de texte 4 px au-dessus. Le petit bouton « gomme » en haut à droite du panneau
+      (<code>1245, 20</code>) est un bouton <strong>Réinitialiser</strong> pointant sur un signet
+      « État initial » capturé avant toute sélection.</p>
+  </div>
+</section>
+
+<!-- ============================= P3 ============================= -->
+<section id="p3">
+  <div class="wrap">
+    <div class="step"><span class="num">P3</span><h2>Ressources</h2></div>
+
+    <figure class="plan">
+      <svg viewBox="0 0 1280 720" role="img" aria-label="Plan de la page 3 : 4 KPI, un anneau, un histogramme empilé, une table">
+        <rect x="0" y="0" width="1280" height="720" fill="var(--surface-2)"/>
+        <rect class="zone nav" x="0" y="0" width="160" height="720"/><text x="80" y="350">Navigation</text>
+        <rect class="zone" x="168" y="11" width="894" height="34"/><text x="615" y="28">TITRE_04 · SOUS_TITRE_03</text>
+        <rect class="zone nav" x="1072" y="11" width="190" height="699"/><text x="1167" y="350">5 segments</text>
+        <rect class="zone kpi" x="168" y="58" width="217" height="76"/><text x="276" y="88">KPI_21</text><text class="xy" x="276" y="108">Effectif</text>
+        <rect class="zone kpi" x="393.7" y="58" width="217" height="76"/><text x="502" y="88">KPI_22</text><text class="xy" x="502" y="108">Externes</text>
+        <rect class="zone kpi" x="619.4" y="58" width="217" height="76"/><text x="728" y="88">KPI_23</text><text class="xy" x="728" y="108">Internes</text>
+        <rect class="zone kpi" x="845.1" y="58" width="217" height="76"/><text x="954" y="88">KPI_24</text><text class="xy" x="954" y="108">Stagiaires</text>
+        <rect class="zone viz" x="168" y="145" width="360" height="268"/><text class="big" x="348" y="265">VISUEL_09</text><text x="348" y="290">anneau par société</text><text class="xy" x="348" y="312">168, 145 · 360 × 268</text>
+        <rect class="zone viz" x="537" y="145" width="525" height="268"/><text class="big" x="799" y="265">VISUEL_10</text><text x="799" y="290">histogramme empilé par tribu</text><text class="xy" x="799" y="312">537, 145 · 525 × 268</text>
+        <rect class="zone viz" x="168" y="422" width="894" height="288"/><text class="big" x="615" y="552">VISUEL_11</text><text x="615" y="577">table nominative — 16 colonnes</text><text class="xy" x="615" y="599">168, 422 · 894 × 288</text>
+      </svg>
+      <figcaption>P3 — deux visuels de forme, une table de détail</figcaption>
+    </figure>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Visuel</th><th>Champs</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">KPI_21</td><td>Carte</td><td class="m">Effectif</td><td class="n">168</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_22</td><td>Carte</td><td class="m">Effectif externes</td><td class="n">393,7</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_23</td><td>Carte</td><td class="m">Effectif internes</td><td class="n">619,4</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">KPI_24</td><td>Carte</td><td class="m">Effectif stagiaires</td><td class="n">845,1</td><td class="n">58</td><td class="n">217</td><td class="n">76</td></tr>
+          <tr><td class="rep">VISUEL_09</td><td>Anneau</td><td class="m">Société × Effectif</td><td class="n">176</td><td class="n">169</td><td class="n">344</td><td class="n">236</td></tr>
+          <tr><td class="rep">VISUEL_10</td><td>Histogramme empilé</td><td class="m">Tribu × TypeRessource</td><td class="n">545</td><td class="n">169</td><td class="n">509</td><td class="n">236</td></tr>
+          <tr><td class="rep">VISUEL_11</td><td>Table</td><td class="m">D_Ressource, 16 colonnes</td><td class="n">176</td><td class="n">440</td><td class="n">878</td><td class="n">262</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p><strong>VISUEL_09</strong> — rayon intérieur 62&nbsp;%, étiquettes détaillées à l'extérieur
+      en <em>Catégorie, valeur et pourcentage total</em>, légende en haut à gauche.</p>
+    <p><strong>VISUEL_10</strong> — légende <code>TypeRessource</code>, Externe en
+      <code>#2E9E8F</code> et Interne en <code>#0B2A5B</code>&nbsp;; étiquettes de
+      <strong>total</strong> activées, en <em>Extérieur de la fin</em>&nbsp;; axe X à 7 pt, rotation
+      −45°&nbsp;; tri décroissant par <code>Effectif</code> via le menu «&nbsp;…&nbsp;» du visuel.</p>
+    <p><strong>VISUEL_11</strong> — <code>Ressource</code>, <code>Tribu</code>, <code>Squad</code>,
+      <code>ResID</code>, <code>Objet</code>, <code>TypeRessource</code>, <code>Profil</code>,
+      <code>Société</code>, <code>DateEntree</code>, <code>DateSortie</code>,
+      <code>JH restant à planifier</code>, <code>TJM_EUR</code>,
+      <code>CoutJournalier_EUR</code>, <code>TauxActivite</code>, <code>TauxAbsence</code>,
+      <code>FTE</code>. Désactivez la <strong>largeur de colonne automatique</strong> avant
+      d'ajuster&nbsp;: sinon chaque nouvelle colonne redistribue toutes les autres.</p>
+  </div>
+</section>
+
+<!-- ============================= P4 ============================= -->
+<section id="p4">
+  <div class="wrap">
+    <div class="step"><span class="num">P4</span><h2>Demandes et portefeuille</h2></div>
+
+    <figure class="plan">
+      <svg viewBox="0 0 1280 720" role="img" aria-label="Plan de la page 4 : 5 grands KPI, 6 compteurs, trois visuels, deux tables Top N">
+        <rect x="0" y="0" width="1280" height="720" fill="var(--surface-2)"/>
+        <rect class="zone nav" x="0" y="0" width="160" height="720"/><text x="80" y="350">Navigation</text>
+        <rect class="zone" x="168" y="11" width="894" height="34"/><text x="615" y="28">TITRE_03 · SOUS_TITRE_02</text>
+        <rect class="zone nav" x="1072" y="11" width="190" height="699"/><text x="1167" y="350">8 segments</text>
+        <rect class="zone kpi" x="168" y="58" width="172.4" height="76"/><text x="254" y="88">KPI_08</text><text class="xy" x="254" y="108">172,4 × 76</text>
+        <rect class="zone kpi" x="348.4" y="58" width="172.4" height="76"/><text x="434" y="88">KPI_09</text><text class="xy" x="434" y="108">348,4</text>
+        <rect class="zone kpi" x="528.8" y="58" width="172.4" height="76"/><text x="615" y="88">KPI_10</text><text class="xy" x="615" y="108">528,8</text>
+        <rect class="zone kpi" x="709.2" y="58" width="172.4" height="76"/><text x="795" y="88">KPI_11</text><text class="xy" x="795" y="108">709,2</text>
+        <rect class="zone kpi" x="889.6" y="58" width="172.4" height="76"/><text x="976" y="88">KPI_12</text><text class="xy" x="976" y="108">889,6</text>
+        <rect class="zone kpi" x="168" y="145" width="142.3" height="48"/><text x="239" y="169">KPI_13</text>
+        <rect class="zone kpi" x="318.3" y="145" width="142.3" height="48"/><text x="390" y="169">KPI_14</text>
+        <rect class="zone kpi" x="468.6" y="145" width="142.3" height="48"/><text x="540" y="169">KPI_15</text>
+        <rect class="zone kpi" x="618.9" y="145" width="142.3" height="48"/><text x="690" y="169">KPI_16</text>
+        <rect class="zone kpi" x="769.2" y="145" width="142.3" height="48"/><text x="840" y="169">KPI_17</text>
+        <rect class="zone kpi" x="919.5" y="145" width="142.3" height="48"/><text x="991" y="169">KPI_19</text>
+        <rect class="zone viz" x="168" y="205" width="313" height="182"/><text class="big" x="324" y="285">VISUEL_04</text><text x="324" y="310">par portfolio</text><text class="xy" x="324" y="332">168, 205 · 313 × 182</text>
+        <rect class="zone viz" x="489" y="205" width="314" height="182"/><text class="big" x="646" y="285">VISUEL_05</text><text x="646" y="310">top tribus, N vs N−1</text><text class="xy" x="646" y="332">489, 205 · 314 × 182</text>
+        <rect class="zone viz" x="811" y="205" width="251" height="182"/><text class="big" x="936" y="285">VISUEL_06</text><text x="936" y="310">anneau par statut</text><text class="xy" x="936" y="332">811, 205 · 251 × 182</text>
+        <rect class="zone viz" x="168" y="397" width="443" height="313"/><text class="big" x="389" y="540">VISUEL_07</text><text x="389" y="565">Top 10 par charge</text><text class="xy" x="389" y="587">168, 397 · 443 × 313</text>
+        <rect class="zone viz" x="620" y="397" width="442" height="313"/><text class="big" x="841" y="540">VISUEL_08</text><text x="841" y="565">Top 10 par budget</text><text class="xy" x="841" y="587">620, 397 · 442 × 313</text>
+      </svg>
+      <figcaption>P4 — deux rangées de KPI, trois visuels de synthèse, deux tables de détail</figcaption>
+    </figure>
+
+    <h3>Grande rangée — 5 cartes de 172,4 × 76 en Y = 58</h3>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Mesure</th><th class="n">X</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">KPI_08</td><td class="m">Nb demandes</td><td class="n">168</td></tr>
+          <tr><td class="rep">KPI_09</td><td class="m">Budget initial K€</td><td class="n">348,4</td></tr>
+          <tr><td class="rep">KPI_10</td><td class="m">Budget consommé K€</td><td class="n">528,8</td></tr>
+          <tr><td class="rep">KPI_11</td><td class="m">Budget engagé K€</td><td class="n">709,2</td></tr>
+          <tr><td class="rep">KPI_12</td><td class="m">Reste à faire K€</td><td class="n">889,6</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Sous-texte de <span class="rep">KPI_11</span> et <span class="rep">KPI_12</span>&nbsp;: carte
+      <code>Libellé atteinte budget</code>.</p>
+
+    <h3>Petite rangée — 6 compteurs de 142,3 × 48 en Y = 145</h3>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Mesure</th><th class="n">X</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">KPI_13</td><td class="m">Nb à cadrer</td><td class="n">168</td></tr>
+          <tr><td class="rep">KPI_14</td><td class="m">Nb cadrés</td><td class="n">318,3</td></tr>
+          <tr><td class="rep">KPI_15</td><td class="m">Nb suspendus</td><td class="n">468,6</td></tr>
+          <tr><td class="rep">KPI_16</td><td class="m">Nb en recette</td><td class="n">618,9</td></tr>
+          <tr><td class="rep">KPI_17 / 18</td><td class="m">Nb en cours</td><td class="n">769,2</td></tr>
+          <tr><td class="rep">KPI_19 / 20</td><td class="m">Nb livrés</td><td class="n">919,5</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Ces cartes-là ont leur valeur <strong>alignée à droite</strong> et leur libellé à gauche de la
+      pastille&nbsp;: posez la carte sur la moitié droite seulement — <code>X + 60</code>,
+      largeur 75.</p>
+
+    <h3>Les trois visuels de synthèse</h3>
+    <ul class="prose">
+      <li><strong>VISUEL_04</strong> <code>176, 229, 297 × 150</code> — histogramme groupé, axe X
+        <code>Portfolio</code>, valeurs <code>JH consommés</code>, <code>#0B2A5B</code>, axe à −45°
+        en 6 pt.</li>
+      <li><strong>VISUEL_05</strong> <code>497, 229, 298 × 150</code> — table&nbsp;: <code>Tribu</code>,
+        <code>JH consommés N-1</code>, <code>JH consommés</code>, <code>Écart JH vs N-1</code>,
+        <code>% écart JH vs N-1</code>. Filtre <strong>N premiers = 5</strong> par l'écart. Format
+        personnalisé <code>+# ##0;-# ##0</code> pour afficher le signe.</li>
+      <li><strong>VISUEL_06</strong> <code>819, 229, 235 × 150</code> — anneau, rayon intérieur
+        65&nbsp;%, <strong>légende à droite</strong> en <em>Catégorie, valeur et pourcentage</em>,
+        étiquettes détaillées désactivées.</li>
+    </ul>
+
+    <h3>VISUEL_07 et VISUEL_08 · les deux Top 10</h3>
+    <p><strong>Tables</strong> en <code>176, 430, 427 × 272</code> et
+      <code>628, 430, 426 × 272</code>. La première classe par <code>JH consommés</code>, la seconde
+      par <code>Budget consommé K€</code> avec une colonne <code>% budget consommé</code> en couleur
+      conditionnelle.</p>
+
+    <div class="note">
+      <span class="tag">Le sélecteur « Top 10 » de la maquette</span>
+      <p>Ce n'est pas un filtre fixe mais un <strong>paramètre</strong>&nbsp;:
+        <em>Modélisation → Nouveau paramètre → Plage numérique</em>, nom <code>Top N</code>, de 5 à 50
+        par pas de 5. Son segment se pose en <code>803, 40, 104 × 22</code> et
+        <code>1255, 40</code>. Remplacez alors le filtre N premiers par un rang calculé&nbsp;:</p>
+    </div>
+    <pre><code>Rang objet =
+<span class="dax-f">RANKX</span> ( <span class="dax-f">ALLSELECTED</span> ( D_Objet[Objet] ), [JH consommés], , <span class="dax-k">DESC</span> )
+
+<span class="dax-c">-- puis, dans le volet Filtres du visuel : Rang objet ≤ [Valeur Top N]</span></code></pre>
+
+    <pre><code><span class="dax-c">-- Couleur conditionnelle de la colonne % budget consommé</span>
+<span class="dax-c">-- (Format → Éléments visuels → Couleur de police → fx → Format par = Valeur du champ)</span>
+Alerte budget =
+<span class="dax-f">SWITCH</span> (
+    <span class="dax-f">TRUE</span> (),
+    [% budget consommé] &gt; 1.10, "#D9534F",
+    [% budget consommé] &gt; 0.95, "#E0B23A",
+    "#2E9E8F"
+)</code></pre>
+  </div>
+</section>
+
+<!-- ============================= P5 ============================= -->
+<section id="p5">
+  <div class="wrap">
+    <div class="step"><span class="num">P5</span><h2>Projets de maintenance</h2></div>
+    <div class="note">
+      <span class="tag">Ne la remontez pas</span>
+      <p>La géométrie est <strong>strictement identique</strong> à la page 4. Clic droit sur l'onglet
+        → <strong>Dupliquer la page</strong>, changez le fond pour <code>P5.png</code>, ajoutez un
+        <strong>filtre au niveau de la page</strong>
+        — <code>D_Objet[TypeObjet]</code> est <em>Projet de maintenance</em> — et ne remplacez que
+        les cinq KPI et les deux visuels ci-dessous. Les deux tables du bas et
+        <span class="rep">VISUEL_05</span> se conservent telles quelles&nbsp;: le filtre de page fait
+        le travail.</p>
+    </div>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Repère</th><th>Mesure</th><th class="n">X</th><th class="n">Y</th></tr></thead>
+        <tbody>
+          <tr><td class="rep">KPI_08</td><td class="m">Nb projets</td><td class="n">168</td><td class="n">58</td></tr>
+          <tr><td class="rep">KPI_25</td><td class="m">JH planifiés</td><td class="n">348,4</td><td class="n">58</td></tr>
+          <tr><td class="rep">KPI_26</td><td class="m">JH consommés</td><td class="n">528,8</td><td class="n">58</td></tr>
+          <tr><td class="rep">KPI_11</td><td class="m">Budget engagé K€</td><td class="n">709,2</td><td class="n">58</td></tr>
+          <tr><td class="rep">KPI_12</td><td class="m">Reste à faire K€</td><td class="n">889,6</td><td class="n">58</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <ul class="prose">
+      <li><strong>VISUEL_12</strong> <code>176, 229, 297 × 150</code> — histogramme groupé, axe X
+        <code>D_Objet[Objet]</code>, valeurs <code>JH planifiés</code> <em>et</em>
+        <code>JH consommés</code> en <code>#0B2A5B</code> / <code>#2E9E8F</code>, étiquettes 6 pt,
+        unités d'affichage <strong>Milliers</strong>.</li>
+      <li><strong>VISUEL_13</strong> <code>819, 229, 235 × 150</code> — anneau, légende
+        <code>D_Portfolio[Segment]</code> ou <code>D_Objet[Priorite]</code>, valeurs
+        <code>JH consommés</code>, unités <strong>Milliers</strong>.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================= DAX ============================= -->
+<section id="dax">
+  <div class="wrap">
+    <div class="step"><span class="num">03</span><h2>Les mesures qui méritent un commentaire</h2></div>
+    <p>Le socle est trivial — des <code>SUM</code> sur les trois faits, puis une division par 1000
+      pour les K€, la maquette n'affichant jamais d'euros bruts. Quatre mesures demandent en revanche
+      qu'on s'y arrête.</p>
+
+    <h4>Capacité théorique</h4>
+    <p>Elle croise deux tables qui n'ont pas le même grain&nbsp;: le FTE vient de
+      <code>F_Effectif</code>, les jours ouvrés de <code>D_Calendrier</code>. D'où l'itération mois
+      par mois.</p>
+    <pre><code>Capacité JH =
+<span class="dax-f">SUMX</span> (
+    <span class="dax-f">VALUES</span> ( D_Calendrier[AnneeMois] ),
+    <span class="dax-f">CALCULATE</span> ( <span class="dax-f">SUM</span> ( F_Effectif[FTE] ) )
+        * <span class="dax-f">CALCULATE</span> ( <span class="dax-f">SUM</span> ( D_Calendrier[EstJourOuvre] ) )
+)
+
+JH restant à planifier = <span class="dax-f">MAX</span> ( 0, [Capacité JH] - [JH planifiés] )
+Taux d'occupation      = <span class="dax-f">DIVIDE</span> ( [JH consommés], [Capacité JH] )</code></pre>
+
+    <h4>Entrées et sorties</h4>
+    <p>Elles s'appuient sur les deux relations inactives posées à l'étape 4.</p>
+    <pre><code>Entrées =
+<span class="dax-f">CALCULATE</span> (
+    <span class="dax-f">DISTINCTCOUNT</span> ( D_Ressource[ResID] ),
+    <span class="dax-f">USERELATIONSHIP</span> ( D_Ressource[DateEntree], D_Calendrier[Date] )
+)
+
+Sorties =
+<span class="dax-f">CALCULATE</span> (
+    <span class="dax-f">DISTINCTCOUNT</span> ( D_Ressource[ResID] ),
+    <span class="dax-f">USERELATIONSHIP</span> ( D_Ressource[DateSortie], D_Calendrier[Date] )
+)</code></pre>
+
+    <h4>Comparaison N−1</h4>
+    <pre><code>JH consommés N-1 =
+<span class="dax-f">CALCULATE</span> ( [JH consommés], <span class="dax-f">SAMEPERIODLASTYEAR</span> ( D_Calendrier[Date] ) )
+
+Écart JH vs N-1   = [JH consommés] - [JH consommés N-1]
+% écart JH vs N-1 = <span class="dax-f">DIVIDE</span> ( [Écart JH vs N-1], [JH consommés N-1] )</code></pre>
+
+    <h4>L'horodatage du pied de page</h4>
+    <div class="note warn">
+      <span class="tag">N'utilisez pas NOW()</span>
+      <p><code>NOW()</code> se recalcule à chaque interaction&nbsp;: l'heure affichée bougerait au
+        moindre clic. Il faut figer l'instant du rafraîchissement dans une requête.</p>
+    </div>
+    <ol class="prose">
+      <li>Accueil → Transformer les données → Nouvelle source → <strong>Requête vide</strong></li>
+      <li>Dans la barre de formule&nbsp;:
+        <code>= #table({"Rafraichissement"}, {{DateTime.LocalNow()}})</code></li>
+      <li>Renommez <code>_Rafraichissement</code>, type Date/Heure, Fermer et appliquer</li>
+    </ol>
+    <pre><code>Dernière actualisation =
+"Dernière actualisation : "
+    &amp; <span class="dax-f">FORMAT</span> ( <span class="dax-f">MAX</span> ( _Rafraichissement[Rafraichissement] ), "dd/MM/yyyy HH:mm" )</code></pre>
+
+    <h4>Les libellés composés de la maquette</h4>
+    <pre><code>Libellé mix effectif =
+<span class="dax-f">FORMAT</span> ( [Effectif externes], "# ##0" ) &amp; " externes  |  "
+    &amp; <span class="dax-f">FORMAT</span> ( [Effectif internes], "# ##0" ) &amp; " internes"
+
+Libellé atteinte budget =
+<span class="dax-f">FORMAT</span> ( <span class="dax-f">DIVIDE</span> ( [Budget engagé], [Budget initial] ), "0,0 %" ) &amp; " du budget cible"</code></pre>
+  </div>
+</section>
+
+<!-- ============================= FINITIONS ============================= -->
+<section id="fin">
+  <div class="wrap">
+    <div class="step"><span class="num">04</span><h2>Interactions et finitions</h2></div>
+
+    <h3>Interactions entre visuels</h3>
+    <p><strong>Format → Modifier les interactions</strong>. Trois réglages valent la peine&nbsp;:</p>
+    <ul class="prose">
+      <li>Les segments filtrent tout — c'est le défaut, rien à faire.</li>
+      <li><span class="rep">VISUEL_01</span> et <span class="rep">VISUEL_04</span> → passez les
+        autres visuels en <strong>Filtrer</strong> plutôt qu'en <em>Mettre en surbrillance</em>&nbsp;:
+        les tables deviennent lisibles au clic.</li>
+      <li>Les cartes de KPI → <strong>Aucun</strong> en cible. Un KPI ne doit pas se refiltrer
+        lui-même quand on clique ailleurs.</li>
+    </ul>
+
+    <h3>Les ⓘ de la maquette</h3>
+    <p>Ce sont des info-bulles. Créez une page <strong>Format de page → Type = Info-bulle</strong>,
+      320 × 180, puis sur chaque visuel&nbsp;: Général → <strong>Info-bulles</strong> → Type = Page de
+      rapport.</p>
+
+    <h3>Avant de livrer</h3>
+    <ul class="check">
+      <li>Les 5 pages ont leur fond posé, transparence 0 %</li>
+      <li>Aucun visuel n'affiche de bordure ni d'en-tête blanc</li>
+      <li>Le tri par colonne est appliqué — mois, tribus, statuts</li>
+      <li><code>D_Calendrier</code> est marquée comme table de dates</li>
+      <li><span class="rep">VISUEL_02</span> affiche bien ses colonnes vides de septembre à décembre</li>
+      <li>Chaque page est en Affichage → Ajuster à la page</li>
+      <li>Les onglets techniques — info-bulles, extraction — sont masqués</li>
+      <li>L'ordre de tabulation est revu pour l'accessibilité</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Coordonnées extraites du code SVG des 5 maquettes · canevas 1280 × 720 ·
+    palette et typographies relevées à la source.
+  </div>
+</footer>
