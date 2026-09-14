@@ -909,6 +909,40 @@ Alerte budget =
     <p>À réserver aux cartes d'affichage&nbsp;: une mesure texte ne se trie plus et ne se compare plus
       numériquement — jamais dans une colonne de tableau ni sur un axe.</p>
 
+    <h4>Carte classique ou Carte (nouveau) ?</h4>
+    <p>Les deux existent et n'ont pas les mêmes sections. Repérez-les dans
+      <strong>Format → Visuel</strong>&nbsp;:</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Sections visibles</th><th>Visuel</th></tr></thead>
+        <tbody>
+          <tr><td><span class="rep">Valeur de légende</span> · <span class="rep">Étiquette de catégorie</span></td><td><strong>Carte</strong> classique</td></tr>
+          <tr><td><span class="rep">Cartes</span> · <span class="rep">Valeur de légende</span> · <span class="rep">Étiquettes</span> · <span class="rep">Image</span></td><td><strong>Carte (nouveau)</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><span class="rep">Disposition</span>, <span class="rep">Forme</span>,
+      <span class="rep">Remplissage</span>, <span class="rep">Bordure</span>,
+      <span class="rep">Diviseur</span>, <span class="rep">Barre d'accentuation</span>,
+      <span class="rep">Ombre</span> et <span class="rep">Lueur</span> appartiennent tous au groupe
+      <strong>Cartes</strong> de la Carte (nouveau)&nbsp;: ce sont des réglages d'apparence du bloc,
+      jamais de la valeur. Repliez le groupe <span class="rep">Cartes</span> en cliquant sur son
+      en-tête, puis descendez jusqu'à <strong>Valeur de légende</strong>.</p>
+    <div class="note">
+      <span class="tag">Ce guide suppose la Carte classique</span>
+      <p>Valeur de légende à 22 pt, étiquette de catégorie désactivée, positionnement au pixel&nbsp;:
+        toutes les consignes page par page sont calées sur elle. Pour basculer, dans le volet
+        Visualisations l'icône de la carte classique est <strong>123</strong> — l'info-bulle au
+        survol distingue <em>Carte</em> de <em>Carte (nouveau)</em>. Le champ reste en place.</p>
+    </div>
+    <div class="note">
+      <span class="tag">Le test qui tranche</span>
+      <p>Basculez la carte en <strong>Table</strong> depuis le volet Visualisations. Si la table
+        affiche <code>1 061</code>, le format de la mesure est bon et le coupable est l'unité
+        d'affichage du visuel. Si elle affiche <code>2K</code> elle aussi, c'est le format de la
+        mesure qui n'a pas été appliqué. Re-cliquez ensuite sur Carte.</p>
+    </div>
+
     <p>Sur une <strong>Carte</strong>, le chemin est Visuel → <strong>Valeur de légende</strong> →
       <strong>Unités d'affichage = Aucune</strong>, et <strong>Valeur décimale = 0</strong> juste en
       dessous. Sur une <strong>Carte (nouveau)</strong>, c'est Visuel → <strong>Valeur</strong>.</p>

@@ -77,6 +77,40 @@ Quatre causes, par ordre de fréquence :
 4. **Ce visuel n'a pas ce réglage.** Table, Matrice et Segment n'en ont pas :
    pour eux, tout vient du format de la mesure (niveau 2 ci-dessous).
 
+#### Carte classique ou Carte (nouveau) ?
+
+Les deux existent et n'ont pas les mêmes sections. Repérez-les dans
+**Format → Visuel** :
+
+| Sections visibles | Visuel |
+|---|---|
+| `Valeur de légende` · `Étiquette de catégorie` | **Carte** classique |
+| `Cartes` · `Valeur de légende` · `Étiquettes` · `Image` | **Carte (nouveau)** |
+
+`Disposition`, `Forme`, `Remplissage`, `Bordure`, `Diviseur`,
+`Barre d'accentuation`, `Ombre` et `Lueur` appartiennent tous au groupe
+**Cartes** de la Carte (nouveau) : ce sont des réglages d'apparence du bloc,
+jamais de la valeur. Si vous les voyez, repliez le groupe `Cartes` en cliquant
+sur son en-tête, puis descendez jusqu'à **`Valeur de légende`**.
+
+> **Le guide suppose la Carte classique** — valeur de légende à 22 pt, étiquette
+> de catégorie désactivée, positionnement au pixel. Si vous êtes sur la Carte
+> (nouveau), basculez : dans le volet Visualisations, l'icône de la carte
+> classique est **`123`** ; l'info-bulle au survol distingue *Carte* de
+> *Carte (nouveau)*. Le champ reste en place.
+
+#### Le test qui tranche
+
+Sélectionnez la carte, puis basculez-la en **Table** depuis le volet
+Visualisations :
+
+- la table affiche `1 061` → le format de la mesure est bon, le coupable est
+  l'unité d'affichage du visuel ;
+- la table affiche `2K` elle aussi → c'est le format de la mesure qui n'a pas
+  été appliqué.
+
+Re-cliquez ensuite sur Carte pour revenir.
+
 Si rien n'y fait, l'échappatoire imparable est une mesure qui renvoie du
 **texte** — Power BI ne peut pas abréger du texte :
 
