@@ -228,6 +228,7 @@
       <li><a href="#p3">P3</a></li>
       <li><a href="#p4">P4</a></li>
       <li><a href="#p5">P5</a></li>
+      <li><a href="#variante">Variante fond complet</a></li>
       <li><a href="#fin">Finitions</a></li>
     </ul>
   </div>
@@ -930,6 +931,192 @@ Sorties =
 
 Libellé atteinte budget =
 <span class="dax-f">FORMAT</span> ( <span class="dax-f">DIVIDE</span> ( [Budget engagé], [Budget initial] ), "0,0 %" ) &amp; " du budget cible"</code></pre>
+  </div>
+</section>
+
+<!-- ============ VARIANTE FOND COMPLET ============ -->
+<section id="variante">
+  <div class="wrap">
+    <div class="step"><span class="num">05</span><h2>Variante&nbsp;: garder la maquette complète en fond</h2></div>
+    <p>La maquette peut rester l'image d'arrière-plan, telle qu'elle a été livrée. C'est même
+      l'option la plus économe&nbsp;: tout le décor est déjà peint et n'a pas à être reconstruit.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Élément de la maquette</th><th>Variante A — fond complet</th><th>Variante B — fond nettoyé</th></tr></thead>
+        <tbody>
+          <tr><td>Barre latérale, pastille active déjà juste page par page</td><td>conservée</td><td>à reconstruire</td></tr>
+          <tr><td>Bandeau <span class="rep">TITRE_0n</span> / <span class="rep">SOUS_TITRE_0n</span></td><td>conservé</td><td>à reconstruire</td></tr>
+          <tr><td>Libellés <span class="rep">KPI_01</span> → <span class="rep">KPI_30</span></td><td>conservés</td><td>à reconstruire</td></tr>
+          <tr><td>Pastilles rondes et leurs icônes</td><td>conservées</td><td>à redessiner</td></tr>
+          <tr><td>Titres <span class="rep">VISUEL_01</span> → <span class="rep">VISUEL_13</span>, pictos ⓘ</td><td>conservés</td><td>à reconstruire</td></tr>
+          <tr><td>Libellés et filets du panneau de filtres</td><td>conservés</td><td>à reconstruire</td></tr>
+          <tr><td><strong>Chaque zone dynamique</strong></td><td><strong>à masquer</strong></td><td>rien à masquer</td></tr>
+          <tr><td>Objets à poser, par page</td><td class="n">≈ 30 visuels + 12 rectangles</td><td class="n">≈ 45 visuels</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>Sur les 5 pages, la variante A représente environ <strong>120 objets que vous n'avez pas à
+      créer</strong>. Modèle, mesures et visuels sont identiques dans les deux cas&nbsp;: seule
+      change l'image de fond, et la présence ou non des rectangles de masquage.</p>
+
+    <div class="note warn">
+      <span class="tag">La règle, en une phrase</span>
+      <p>Tout ce qui reste de la maquette <strong>doit être recouvert intégralement</strong> par un
+        objet opaque, sinon le faux chiffre transparaît derrière le vrai.</p>
+    </div>
+
+    <h3>Trois gestes par zone</h3>
+    <ol class="prose">
+      <li><strong>Insérer → Formes → Rectangle</strong> aux coordonnées du masque. Remplissage
+        <strong>blanc pur</strong> <code>#FFFFFF</code>, transparence 0&nbsp;%, aucune bordure,
+        aucune ombre.</li>
+      <li>Clic droit → <strong>Ordre de plan → Mettre à l'arrière-plan</strong>.</li>
+      <li>Poser le visuel par-dessus, <strong>fond transparent</strong> et <strong>titre
+        désactivé</strong> — le titre est déjà dans l'image.</li>
+    </ol>
+
+    <div class="note">
+      <span class="tag">Pourquoi un rectangle, et pas simplement un visuel opaque</span>
+      <p>Un visuel opaque masquerait aussi, mais Power BI dessine son fond avec ses marges internes&nbsp;:
+        le recouvrement n'est jamais exact au pixel. Le rectangle, lui, ne bouge pas — et il reste
+        en place quand vous redimensionnez le visuel.</p>
+    </div>
+
+    <h3>Quatre points de vigilance propres à cette variante</h3>
+    <ul class="prose">
+      <li><strong>Blanc pur, pas « blanc du thème ».</strong> Les cartes de la maquette sont en
+        <code>#FFFFFF</code>. Une nuance du thème laisserait un liseré gris au raccord.</li>
+      <li><strong>Les listes déroulantes sont dessinées.</strong> Chaque segment doit se poser
+        exactement dessus, sinon on voit deux listes superposées. Toutes en
+        <code>x&nbsp;=&nbsp;1081</code>, <code>largeur&nbsp;=&nbsp;172</code>,
+        <code>hauteur&nbsp;=&nbsp;21</code>.</li>
+      <li><strong>Les tableaux dessinés ont un nombre de lignes figé.</strong> Si votre table réelle
+        en affiche moins, les lignes dessinées réapparaissent en bas. Le masque couvre toute la
+        hauteur de la carte&nbsp;: ne le rognez pas.</li>
+      <li><strong>La barre latérale ne se masque pas.</strong> Posez 6 boutons transparents sur les
+        entrées dessinées, action <em>Navigation de page</em>. L'état actif est déjà peint dans
+        chaque image.</li>
+    </ul>
+
+    <div class="note">
+      <span class="tag">Le test qui tranche</span>
+      <p>Une fois la page montée, mettez tous les segments sur une valeur qui ne renvoie rien. Si un
+        chiffre de la maquette apparaît, c'est qu'un masque manque ou qu'il est trop petit.</p>
+    </div>
+
+    <h3>Les 49 zones à masquer</h3>
+    <h4>Page 2 · Capacité</h4>
+    <div class="scroll"><table>
+      <thead><tr><th>Repère</th><th class="n">Carte x, y</th><th class="n">Carte l × h</th><th class="n">Masque x, y</th><th class="n">Masque l × h</th></tr></thead><tbody>
+        <tr><td class="rep">KPI_01</td><td class="n">168, 58</td><td class="n">217 × 76</td><td class="n"><strong>169, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_02</td><td class="n">393,7, 58</td><td class="n">217 × 76</td><td class="n"><strong>394,7, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_03</td><td class="n">619,4, 58</td><td class="n">217 × 76</td><td class="n"><strong>620,4, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_04</td><td class="n">845,1, 58</td><td class="n">217 × 76</td><td class="n"><strong>846,1, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_05</td><td class="n">168, 145</td><td class="n">443 × 75</td><td class="n"><strong>169, 171</strong></td><td class="n"><strong>422 × 48</strong></td></tr>
+        <tr><td class="rep">KPI_06</td><td class="n">620, 145</td><td class="n">217 × 75</td><td class="n"><strong>621, 169</strong></td><td class="n"><strong>178 × 50</strong></td></tr>
+        <tr><td class="rep">KPI_07</td><td class="n">846, 145</td><td class="n">216 × 75</td><td class="n"><strong>847, 169</strong></td><td class="n"><strong>177 × 50</strong></td></tr>
+        <tr><td class="rep">VISUEL_01</td><td class="n">168, 231</td><td class="n">443 × 169</td><td class="n"><strong>169, 267</strong></td><td class="n"><strong>441 × 132</strong></td></tr>
+        <tr><td class="rep">VISUEL_02</td><td class="n">620, 231</td><td class="n">442 × 169</td><td class="n"><strong>621, 267</strong></td><td class="n"><strong>440 × 132</strong></td></tr>
+        <tr><td class="rep">VISUEL_03</td><td class="n">168, 407</td><td class="n">894 × 303</td><td class="n"><strong>169, 436</strong></td><td class="n"><strong>892 × 273</strong></td></tr>
+      </tbody></table></div>
+    <h4>Page 2 · Capacité — segments, sur les listes dessinées</h4>
+    <div class="scroll"><table><thead><tr><th>Libellé imprimé</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead><tbody>
+        <tr><td class="rep">FILTRE_01</td><td class="n">1081</td><td class="n">87</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_02</td><td class="n">1081</td><td class="n">156</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_03</td><td class="n">1081</td><td class="n">202</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_04</td><td class="n">1081</td><td class="n">271</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_05</td><td class="n">1081</td><td class="n">317</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_06</td><td class="n">1081</td><td class="n">386</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_07</td><td class="n">1081</td><td class="n">432</td><td class="n">172</td><td class="n">21</td></tr>
+      </tbody></table></div>
+    <h4>Page 3 · Ressources</h4>
+    <div class="scroll"><table>
+      <thead><tr><th>Repère</th><th class="n">Carte x, y</th><th class="n">Carte l × h</th><th class="n">Masque x, y</th><th class="n">Masque l × h</th></tr></thead><tbody>
+        <tr><td class="rep">KPI_21</td><td class="n">168, 58</td><td class="n">217 × 76</td><td class="n"><strong>169, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_22</td><td class="n">393,7, 58</td><td class="n">217 × 76</td><td class="n"><strong>394,7, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_23</td><td class="n">619,4, 58</td><td class="n">217 × 76</td><td class="n"><strong>620,4, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_24</td><td class="n">845,1, 58</td><td class="n">217 × 76</td><td class="n"><strong>846,1, 82</strong></td><td class="n"><strong>178 × 51</strong></td></tr>
+        <tr><td class="rep">VISUEL_09</td><td class="n">168, 145</td><td class="n">360 × 268</td><td class="n"><strong>169, 178</strong></td><td class="n"><strong>358 × 234</strong></td></tr>
+        <tr><td class="rep">VISUEL_10</td><td class="n">537, 145</td><td class="n">525 × 268</td><td class="n"><strong>538, 178</strong></td><td class="n"><strong>523 × 234</strong></td></tr>
+        <tr><td class="rep">VISUEL_11</td><td class="n">168, 422</td><td class="n">894 × 288</td><td class="n"><strong>169, 452</strong></td><td class="n"><strong>892 × 257</strong></td></tr>
+      </tbody></table></div>
+    <h4>Page 3 · Ressources — segments, sur les listes dessinées</h4>
+    <div class="scroll"><table><thead><tr><th>Libellé imprimé</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead><tbody>
+        <tr><td class="rep">FILTRE_02</td><td class="n">1081</td><td class="n">87</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_04</td><td class="n">1081</td><td class="n">133</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_05</td><td class="n">1081</td><td class="n">179</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_06</td><td class="n">1081</td><td class="n">248</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_07</td><td class="n">1081</td><td class="n">294</td><td class="n">172</td><td class="n">21</td></tr>
+      </tbody></table></div>
+    <h4>Page 4 · Demandes</h4>
+    <div class="scroll"><table>
+      <thead><tr><th>Repère</th><th class="n">Carte x, y</th><th class="n">Carte l × h</th><th class="n">Masque x, y</th><th class="n">Masque l × h</th></tr></thead><tbody>
+        <tr><td class="rep">KPI_08</td><td class="n">168, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>169, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_09</td><td class="n">348,4, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>349,4, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_10</td><td class="n">528,8, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>529,8, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_11</td><td class="n">709,2, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>710,2, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_12</td><td class="n">889,6, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>890,6, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_13</td><td class="n">168, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>246, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_14</td><td class="n">318,3, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>396,3, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_15</td><td class="n">468,6, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>546,6, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_16</td><td class="n">618,9, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>696,9, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_17 / KPI_18</td><td class="n">769,2, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>847,2, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_19 / KPI_20</td><td class="n">919,5, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>997,5, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">VISUEL_04</td><td class="n">168, 205</td><td class="n">313 × 182</td><td class="n"><strong>169, 236</strong></td><td class="n"><strong>311 × 150</strong></td></tr>
+        <tr><td class="rep">VISUEL_05</td><td class="n">489, 205</td><td class="n">314 × 182</td><td class="n"><strong>490, 230</strong></td><td class="n"><strong>312 × 156</strong></td></tr>
+        <tr><td class="rep">VISUEL_06</td><td class="n">811, 205</td><td class="n">251 × 182</td><td class="n"><strong>812, 237</strong></td><td class="n"><strong>249 × 149</strong></td></tr>
+        <tr><td class="rep">VISUEL_07</td><td class="n">168, 397</td><td class="n">443 × 313</td><td class="n"><strong>169, 423</strong></td><td class="n"><strong>441 × 286</strong></td></tr>
+        <tr><td class="rep">VISUEL_08</td><td class="n">620, 397</td><td class="n">442 × 313</td><td class="n"><strong>621, 423</strong></td><td class="n"><strong>440 × 286</strong></td></tr>
+      </tbody></table></div>
+    <h4>Page 4 · Demandes — segments, sur les listes dessinées</h4>
+    <div class="scroll"><table><thead><tr><th>Libellé imprimé</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead><tbody>
+        <tr><td class="rep">FILTRE_08</td><td class="n">1081</td><td class="n">87</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_09</td><td class="n">1081</td><td class="n">133</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">Portfolio</td><td class="n">1081</td><td class="n">179</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">SECTION_05</td><td class="n">1081</td><td class="n">225</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_07</td><td class="n">1081</td><td class="n">294</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_10</td><td class="n">1081</td><td class="n">340</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_11</td><td class="n">1081</td><td class="n">409</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_12</td><td class="n">1081</td><td class="n">455</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_13</td><td class="n">1081</td><td class="n">501</td><td class="n">172</td><td class="n">21</td></tr>
+      </tbody></table></div>
+    <h4>Page 5 · Projets</h4>
+    <div class="scroll"><table>
+      <thead><tr><th>Repère</th><th class="n">Carte x, y</th><th class="n">Carte l × h</th><th class="n">Masque x, y</th><th class="n">Masque l × h</th></tr></thead><tbody>
+        <tr><td class="rep">KPI_08</td><td class="n">168, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>169, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_25</td><td class="n">348,4, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>349,4, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_26</td><td class="n">528,8, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>529,8, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_11</td><td class="n">709,2, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>710,2, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_12</td><td class="n">889,6, 58</td><td class="n">172,4 × 76</td><td class="n"><strong>890,6, 82</strong></td><td class="n"><strong>133 × 51</strong></td></tr>
+        <tr><td class="rep">KPI_13</td><td class="n">168, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>246, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_14</td><td class="n">318,3, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>396,3, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_15</td><td class="n">468,6, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>546,6, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_27</td><td class="n">618,9, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>696,9, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_28 / KPI_29</td><td class="n">769,2, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>847,2, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">KPI_30 / KPI_29</td><td class="n">919,5, 145</td><td class="n">142,3 × 48</td><td class="n"><strong>997,5, 146</strong></td><td class="n"><strong>62 × 46</strong></td></tr>
+        <tr><td class="rep">VISUEL_12</td><td class="n">168, 205</td><td class="n">313 × 182</td><td class="n"><strong>169, 236</strong></td><td class="n"><strong>311 × 150</strong></td></tr>
+        <tr><td class="rep">VISUEL_05</td><td class="n">489, 205</td><td class="n">314 × 182</td><td class="n"><strong>490, 230</strong></td><td class="n"><strong>312 × 156</strong></td></tr>
+        <tr><td class="rep">VISUEL_13</td><td class="n">811, 205</td><td class="n">251 × 182</td><td class="n"><strong>812, 237</strong></td><td class="n"><strong>249 × 149</strong></td></tr>
+        <tr><td class="rep">VISUEL_07</td><td class="n">168, 397</td><td class="n">443 × 313</td><td class="n"><strong>169, 423</strong></td><td class="n"><strong>441 × 286</strong></td></tr>
+        <tr><td class="rep">VISUEL_08</td><td class="n">620, 397</td><td class="n">442 × 313</td><td class="n"><strong>621, 423</strong></td><td class="n"><strong>440 × 286</strong></td></tr>
+      </tbody></table></div>
+    <h4>Page 5 · Projets — segments, sur les listes dessinées</h4>
+    <div class="scroll"><table><thead><tr><th>Libellé imprimé</th><th class="n">X</th><th class="n">Y</th><th class="n">L</th><th class="n">H</th></tr></thead><tbody>
+        <tr><td class="rep">FILTRE_01</td><td class="n">1081</td><td class="n">87</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_08</td><td class="n">1081</td><td class="n">156</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_09</td><td class="n">1081</td><td class="n">202</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_06</td><td class="n">1081</td><td class="n">271</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_07</td><td class="n">1081</td><td class="n">317</td><td class="n">172</td><td class="n">21</td></tr>
+        <tr><td class="rep">FILTRE_10</td><td class="n">1081</td><td class="n">363</td><td class="n">172</td><td class="n">21</td></tr>
+      </tbody></table></div>
+
+    <h3>Basculer vers la version de comparaison</h3>
+    <p>Rien à remonter. <strong>Fichier → Enregistrer sous</strong>, puis sur chaque page&nbsp;:
+      remplacez l'image d'arrière-plan par celle de <code>fonds/png/</code> et supprimez les
+      rectangles de masquage — le <strong>volet Sélection</strong> les liste tous sous le nom
+      <em>Rectangle</em>. Les visuels, eux, ne bougent pas. Comptez une quinzaine de minutes.</p>
   </div>
 </section>
 
