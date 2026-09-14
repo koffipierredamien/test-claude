@@ -466,7 +466,7 @@ Axe X `D_Portfolio[Portfolio]` · Valeurs `JH consommés` · couleur `#0B2A5B` �
 Colonnes : `Tribu` · `JH consommés N-1` · `JH consommés` · `Écart JH vs N-1` ·
 `% écart JH vs N-1`.
 Filtre du visuel : `Tribu` → **N premiers = 5** par `Écart JH vs N-1`.
-Format de l'écart : personnalisé `+# ##0;-# ##0` pour afficher le signe.
+Format de l'écart : personnalisé `+#,##0;-#,##0` pour afficher le signe.
 
 ### VISUEL_06 · Répartition par statut
 

@@ -39,7 +39,66 @@ Reste à faire K€    = DIVIDE ( [Reste à faire],   1000 )
 
 > Format d'affichage pour ces cinq mesures : **Nombre décimal, 0 décimale,
 > séparateur de milliers coché**, puis dans *Format personnalisé* :
-> `# ##0 "K€"`.
+> `#,##0 "K€"`.
+
+---
+
+## 2.1 bis · Supprimer les abréviations K / M
+
+Par défaut, un visuel affiche `2K` au lieu de `2 000`, et `3M` au lieu de
+`3 000 000`. Le coupable n'est pas la mesure mais un réglage du visuel :
+**Unités d'affichage** *(Display units)*, qui vaut **Auto**.
+
+**Ce réglage écrase la chaîne de format de la mesure.** Tant qu'il est sur Auto,
+modifier le format du modèle ne change rien à l'écran — c'est la cause la plus
+fréquente de « je n'arrive pas à enlever le K ».
+
+### Les trois niveaux, dans l'ordre où il faut les traiter
+
+| Niveau | Où | Effet |
+|---|---|---|
+| 1. Le thème | `theme-dashboard.json`, `labelDisplayUnits: 1` | Toute nouveauté naît en « Aucune » |
+| 2. La mesure | Outils de mesure → Format | Fait foi partout où le visuel ne surcharge pas — tables et matrices notamment |
+| 3. Le visuel | Format → Unités d'affichage = **Aucune** | Rattrape les visuels créés avant le thème |
+
+### 1 · Le thème
+
+Le fichier fourni force déjà `labelDisplayUnits: 1` (= Aucune) sur les cartes,
+les étiquettes de données et les axes. **Un thème ne s'applique qu'aux propriétés
+que vous n'avez pas déjà modifiées à la main** : réappliquez-le
+(Affichage → Thème → Rechercher des thèmes), et pour un visuel déjà retouché,
+remettez la propriété à zéro avec le petit bouton **Réinitialiser**
+*(Revert to default)* en regard du réglage.
+
+### 2 · La mesure
+
+Sélectionnez la mesure dans le volet Données → onglet **Outils de mesure**
+*(Measure tools)* → champ **Format** :
+
+| Type de mesure | Format à saisir | Rendu |
+|---|---|---|
+| Compteur d'entiers | `#,##0` | `1 061` |
+| Montant en K€ | `#,##0 "K€"` | `103 273 K€` |
+| Jours-hommes | `#,##0 " JH"` | `244 413 JH` |
+| Écart signé | `+#,##0;-#,##0;0` | `+1 422` / `-631` |
+| Pourcentage | `0,0 %` | `19,1 %` |
+
+Le `,` d'un format personnalisé n'est pas une virgule littérale : c'est le
+marqueur de groupement des milliers, rendu selon la locale — donc une espace en
+français. N'écrivez pas l'espace vous-même.
+
+### 3 · Les tables et matrices
+
+Elles n'ont pas de réglage « Unités d'affichage » : leur affichage vient
+**uniquement** de la chaîne de format de la mesure. Corriger le niveau 2 les
+corrige toutes d'un coup.
+
+### Là où l'abréviation est voulue
+
+Deux visuels de la maquette affichent délibérément des valeurs abrégées :
+<span>`VISUEL_12`</span> (page 5, `2,6K`) et les KPI `KPI_25` / `KPI_26`
+(`37,5K`, `24K`). Sur ces trois-là seulement, remettez
+**Unités d'affichage = Milliers**.
 
 ---
 
@@ -115,8 +174,8 @@ Coût internes K€ = CALCULATE ( [Coût consommé K€], D_Ressource[TypeRessou
 % coût externes = DIVIDE ( [Coût externes K€], [Coût consommé K€] )
 % coût internes = DIVIDE ( [Coût internes K€], [Coût consommé K€] )
 
-Légende coût externes = "DIM_01 · " & FORMAT ( [Coût externes K€], "# ##0" ) & " K€"
-Légende coût internes = "DIM_02 · " & FORMAT ( [Coût internes K€], "# ##0" ) & " K€"
+Légende coût externes = "DIM_01 · " & FORMAT ( [Coût externes K€], "#,##0" ) & " K€"
+Légende coût internes = "DIM_02 · " & FORMAT ( [Coût internes K€], "#,##0" ) & " K€"
 ```
 
 ---
@@ -215,8 +274,8 @@ CALCULATE (
 
 ```dax
 Libellé mix effectif =
-FORMAT ( [Effectif externes], "# ##0" ) & " externes  |  "
-    & FORMAT ( [Effectif internes], "# ##0" ) & " internes"
+FORMAT ( [Effectif externes], "#,##0" ) & " externes  |  "
+    & FORMAT ( [Effectif internes], "#,##0" ) & " internes"
 
 Libellé part empreinte =
 FORMAT ( DIVIDE ( [Effectif externes], [Effectif] ), "0,00 %" ) & " de l'empreinte"

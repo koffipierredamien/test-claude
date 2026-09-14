@@ -789,7 +789,7 @@ JH consommés (tribu objet) =
       <li><strong>VISUEL_05</strong> <code>497, 229, 298 × 150</code> — table&nbsp;: <code>Tribu</code>,
         <code>JH consommés N-1</code>, <code>JH consommés</code>, <code>Écart JH vs N-1</code>,
         <code>% écart JH vs N-1</code>. Filtre <strong>N premiers = 5</strong> par l'écart. Format
-        personnalisé <code>+# ##0;-# ##0</code> pour afficher le signe.</li>
+        personnalisé <code>+#,##0;-#,##0</code> pour afficher le signe.</li>
       <li><strong>VISUEL_06</strong> <code>819, 229, 235 × 150</code> — anneau, rayon intérieur
         65&nbsp;%, <strong>légende à droite</strong> en <em>Catégorie, valeur et pourcentage</em>,
         étiquettes détaillées désactivées.</li>
@@ -873,6 +873,56 @@ Alerte budget =
       pour les K€, la maquette n'affichant jamais d'euros bruts. Quatre mesures demandent en revanche
       qu'on s'y arrête.</p>
 
+    <h4>Supprimer les abréviations K / M</h4>
+    <p>Par défaut un visuel affiche <code>2K</code> au lieu de <code>2 000</code>. Le coupable n'est
+      pas la mesure mais un réglage du visuel&nbsp;: <strong>Unités d'affichage</strong>
+      <em>(Display units)</em>, qui vaut <strong>Auto</strong>.</p>
+    <div class="note warn">
+      <span class="tag">Pourquoi changer le format de la mesure ne suffit pas</span>
+      <p>Ce réglage <strong>écrase la chaîne de format de la mesure</strong>. Tant qu'il est sur Auto,
+        corriger le format du modèle ne change rien à l'écran. C'est la cause la plus fréquente de
+        «&nbsp;je n'arrive pas à enlever le K&nbsp;».</p>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Niveau</th><th>Où</th><th>Effet</th></tr></thead>
+        <tbody>
+          <tr><td>1 · Le thème</td><td class="m">labelDisplayUnits: 1</td><td>Toute nouveauté naît en «&nbsp;Aucune&nbsp;»</td></tr>
+          <tr><td>2 · La mesure</td><td>Outils de mesure → Format</td><td>Fait foi là où le visuel ne surcharge pas — tables et matrices</td></tr>
+          <tr><td>3 · Le visuel</td><td>Format → Unités d'affichage = <strong>Aucune</strong></td><td>Rattrape les visuels créés avant le thème</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Sur une <strong>Carte</strong>, le chemin est Visuel → <strong>Valeur de légende</strong> →
+      <strong>Unités d'affichage = Aucune</strong>, et <strong>Valeur décimale = 0</strong> juste en
+      dessous. Sur une <strong>Carte (nouveau)</strong>, c'est Visuel → <strong>Valeur</strong>.</p>
+    <p>Un thème ne s'applique qu'aux propriétés que vous n'avez <em>pas</em> déjà modifiées à la
+      main&nbsp;: sur un visuel déjà retouché, remettez la propriété à zéro avec le bouton
+      <strong>Réinitialiser</strong> <em>(Revert to default)</em> en regard du réglage.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Type de mesure</th><th>Format à saisir</th><th>Rendu</th></tr></thead>
+        <tbody>
+          <tr><td>Compteur d'entiers</td><td class="m">#,##0</td><td class="n">1 061</td></tr>
+          <tr><td>Montant en K€</td><td class="m">#,##0 "K€"</td><td class="n">103 273 K€</td></tr>
+          <tr><td>Jours-hommes</td><td class="m">#,##0 " JH"</td><td class="n">244 413 JH</td></tr>
+          <tr><td>Écart signé</td><td class="m">+#,##0;-#,##0;0</td><td class="n">+1 422</td></tr>
+          <tr><td>Pourcentage</td><td class="m">0,0 %</td><td class="n">19,1 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Le <code>,</code> d'un format personnalisé n'est pas une virgule littérale&nbsp;: c'est le
+      marqueur de groupement des milliers, rendu selon la locale — donc une espace en français.
+      N'écrivez pas l'espace vous-même.</p>
+    <div class="note">
+      <span class="tag">Là où l'abréviation est voulue</span>
+      <p>Trois endroits de la maquette affichent délibérément des valeurs abrégées&nbsp;:
+        <span class="rep">VISUEL_12</span> (<code>2,6K</code>) et les KPI
+        <span class="rep">KPI_25</span> / <span class="rep">KPI_26</span> (<code>37,5K</code>,
+        <code>24K</code>) de la page 5. Sur ceux-là seulement, remettez
+        <strong>Unités d'affichage = Milliers</strong>.</p>
+    </div>
+
     <h4>Capacité théorique</h4>
     <p>Elle croise deux tables qui n'ont pas le même grain&nbsp;: le FTE vient de
       <code>F_Effectif</code>, les jours ouvrés de <code>D_Calendrier</code>. D'où l'itération mois
@@ -926,8 +976,8 @@ Sorties =
 
     <h4>Les libellés composés de la maquette</h4>
     <pre><code>Libellé mix effectif =
-<span class="dax-f">FORMAT</span> ( [Effectif externes], "# ##0" ) &amp; " externes  |  "
-    &amp; <span class="dax-f">FORMAT</span> ( [Effectif internes], "# ##0" ) &amp; " internes"
+<span class="dax-f">FORMAT</span> ( [Effectif externes], "#,##0" ) &amp; " externes  |  "
+    &amp; <span class="dax-f">FORMAT</span> ( [Effectif internes], "#,##0" ) &amp; " internes"
 
 Libellé atteinte budget =
 <span class="dax-f">FORMAT</span> ( <span class="dax-f">DIVIDE</span> ( [Budget engagé], [Budget initial] ), "0,0 %" ) &amp; " du budget cible"</code></pre>
