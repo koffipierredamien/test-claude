@@ -93,11 +93,27 @@ Les deux existent et n'ont pas les mêmes sections. Repérez-les dans
 jamais de la valeur. Si vous les voyez, repliez le groupe `Cartes` en cliquant
 sur son en-tête, puis descendez jusqu'à **`Valeur de légende`**.
 
+#### La Carte (nouveau) n'a pas d'unités d'affichage
+
+Vérifié dans l'interface : sa section **Valeur** ne contient que police,
+couleur, transparence, alignement, « Afficher vide en tant que » et retour à la
+ligne. **Ni unités d'affichage, ni décimales.** Son affichage numérique vient
+donc *uniquement* du format du champ.
+
+Sur ce visuel, il n'y a que deux voies :
+
+1. **Le format de la mesure.** Volet Données → la mesure → ruban **Outils de
+   mesure** → liste **Format** → `Personnalisé` → `#,##0` puis **Entrée**
+   (le champ ne valide pas si l'on clique ailleurs). Si c'est une *colonne* qui
+   est posée sur la carte — elle s'affiche « Somme de … » — le format se règle
+   sur la colonne : **Outils de colonne → Format**.
+2. **Une mesure texte**, qui ne dépend de rien (voir plus haut).
+
 > **Le guide suppose la Carte classique** — valeur de légende à 22 pt, étiquette
-> de catégorie désactivée, positionnement au pixel. Si vous êtes sur la Carte
-> (nouveau), basculez : dans le volet Visualisations, l'icône de la carte
-> classique est **`123`** ; l'info-bulle au survol distingue *Carte* de
-> *Carte (nouveau)*. Le champ reste en place.
+> de catégorie désactivée, positionnement au pixel. C'est aussi la seule des
+> deux qui expose les unités d'affichage. Pour basculer : dans le volet
+> Visualisations, l'icône de la carte classique est **`123`** ; l'info-bulle au
+> survol distingue *Carte* de *Carte (nouveau)*. Le champ reste en place.
 
 #### Le test qui tranche
 
