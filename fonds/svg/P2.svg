@@ -1,0 +1,466 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Noto Sans, Open Sans, Helvetica Neue, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3MmViZmMzOC0xZGIwLTQ2MTItYmY1NS00ZTMzMTkyYjUyYmEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMhwTxYVeLosW5IEOVfMKHkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjMzQyNTM4MC0xNWQ4LTRlODItOGUzYy1jNDhhOGM3YTA1MzJscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNozE9GAItuQe0vrc1KRIt1PgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggE/m7zTxoEDEpGDS+nAOemeUioeUzcgZFXtgY4OtpfRmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHWSlQfcfgaAGIcOfT6SiLsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBv5mFDP1biuWZmOsVtJnPyKGEmDq36+6szMOUMuUoRi2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjoZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjcyZWJmYzM4LTFkYjAtNDYxMi1iZjU1LTRlMzMxOTJiNTJiYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI5ZGI2MjBlLTBhY2ItNGFjNy1hMjNlLTA4Y2QzOTQwMTk2N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCAT+bvNPGgQMSkYNL6cA56Z5SKh5TNyBkVe2Bjg62l9GaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggqe44hWqsjGYQ4P4PyefyyQ1+puzd1Y2xIGi0DGzHa+iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggdc+l+4lJ0IMzA//pnznjVyfRg4rMNydPjCCYGLV7Dut0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJ7J6tjTQ5f/Iig4mRwiP5kMpm27JOEB4w7gkgahWyPUcod6oTIn3lGNpE+imyfG1rMvaoylbsjD+7Z3Agr1Z9g=</c2pa:manifest></metadata>
+<rect width="1280" height="720" fill="#F3F4F6"/>
+<rect x="0" y="0" width="160" height="720" rx="0" fill="white"  />
+<line x1="160" y1="0" x2="160" y2="720" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(16 13) scale(0.5833333333333334)" fill="none" stroke="#0B2A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="33" y="24.5" font-size="11.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >RAPPORT_01</text>
+<text x="10" y="49" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >CLIENT_01</text>
+<line x1="10" y1="77" x2="150" y2="77" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(17 98) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></g>
+<text x="38" y="110" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_06</text>
+<rect x="7" y="128" width="145" height="44" rx="6" fill="#0B2A5B"  />
+<g transform="translate(17 142) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="38" y="154" font-size="12" fill="white" font-weight="bold" text-anchor="start" >PAGE_07</text>
+<g transform="translate(17 186) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g>
+<text x="38" y="198" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_02</text>
+<g transform="translate(17 230) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="38" y="242" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_08</text>
+<g transform="translate(17 274) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M8 13h8"/><path d="M8 16h5"/></g>
+<text x="38" y="286" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_04</text>
+<g transform="translate(17 318) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.4 5.4L11 21a2 2 0 0 1-3-3l9.3-9.3a4 4 0 0 0 0-5.4z"/></g>
+<text x="38" y="330" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_05</text>
+<g transform="translate(9 682) scale(0.4166666666666667)" fill="none" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></g>
+<text x="24" y="686" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Dernière actualisation : 08/09/2026</text>
+<text x="24" y="695" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >06:30</text>
+<rect x="168" y="11" width="894" height="34" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="181" y="33" font-size="16.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >TITRE_01</text>
+<line x1="373" y1="19" x2="373" y2="37" stroke="#E5E7EB" stroke-width="1"/>
+<text x="383" y="32" font-size="9" fill="#6B7280" font-weight="normal" text-anchor="start" >SOUS_TITRE_01</text>
+<rect x="1072" y="11" width="190" height="699" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1081" y="33" font-size="12" fill="#1F2937" font-weight="bold" text-anchor="start" >TITRE_02</text>
+<rect x="1240" y="19" width="22" height="22" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<g transform="translate(1245 24) scale(0.5)" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21H18"/><path d="m5 16 9-9 5 5-7 7H8.5z"/></g>
+<text x="1081" y="59" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_01</text>
+<line x1="1121.4" y1="56" x2="1253" y2="56" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="79" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_01</text>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 91.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="128" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_02</text>
+<line x1="1116.2" y1="125" x2="1253" y2="125" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="148" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_02</text>
+<rect x="1081" y="156" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="170.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 160.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="194" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_03</text>
+<rect x="1081" y="202" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="216.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 206.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="243" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_03</text>
+<line x1="1131.8" y1="240" x2="1253" y2="240" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="263" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_04</text>
+<rect x="1081" y="271" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="285.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 275.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="309" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_05</text>
+<rect x="1081" y="317" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="331.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 321.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="358" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_04</text>
+<line x1="1147.4" y1="355" x2="1253" y2="355" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="378" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_06</text>
+<rect x="1081" y="386" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="400.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 390.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="424" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_07</text>
+<rect x="1081" y="432" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="446.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 436.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >2026</text>
+<rect x="168.0" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177.0" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_01</text>
+<circle cx="363.0" cy="78" r="14" fill="#2E9E8F"/>
+<g transform="translate(355.0 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="276.5" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >1 061</text>
+<text x="276.5" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >1 299 externes | 205 internes</text>
+<circle cx="372.0" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="372.0" y1="122" x2="372.0" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="372.0" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="393.7" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="402.7" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_02</text>
+<circle cx="588.7" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(580.7 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 3v4"/><path d="M16 3v4"/></g>
+<text x="502.2" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >244 413</text>
+<text x="502.2" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >JH</text>
+<circle cx="597.7" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="597.7" y1="122" x2="597.7" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="597.7" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="619.4" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="628.4" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_03</text>
+<circle cx="814.4" cy="78" r="14" fill="#2E9E8F"/>
+<g transform="translate(806.4 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="m17 8 4 4"/><path d="m21 8-4 4"/></g>
+<text x="727.9" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >0</text>
+<text x="727.9" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >JH</text>
+<circle cx="823.4" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="823.4" y1="122" x2="823.4" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="823.4" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="845.0999999999999" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="854.0999999999999" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_04</text>
+<circle cx="1040.1" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(1032.1 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6a7 7 0 0 0-11 5.5A7 7 0 0 0 17 18"/><path d="M4 10h9"/><path d="M4 14h9"/></g>
+<text x="953.5999999999999" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >103 273 K€</text>
+<circle cx="1049.1" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="1049.1" y1="122" x2="1049.1" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="1049.1" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168" y="145" width="443" height="75" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="162" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_05</text>
+<rect x="177" y="178" width="301.75" height="14" rx="3" fill="#5B3F8F"  />
+<rect x="478.75" y="178" width="123.24999999999999" height="14" rx="3" fill="#2E9E8F"  />
+<rect x="475.75" y="178" width="6" height="14" rx="0" fill="#5B3F8F"  />
+<rect x="478.75" y="178" width="3" height="14" rx="0" fill="#2E9E8F"  />
+<text x="327.875" y="188" font-size="7" fill="white" font-weight="bold" text-anchor="middle" >45,9 %</text>
+<text x="540.375" y="188" font-size="7" fill="white" font-weight="bold" text-anchor="middle" >29,2 %</text>
+<circle cx="183" cy="208" r="3" fill="#5B3F8F"/>
+<text x="190" y="211" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_01 · 51 723 K€</text>
+<circle cx="503" cy="208" r="3" fill="#2E9E8F"/>
+<text x="510" y="211" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_02 · 31 821 K€</text>
+<circle cx="598" cy="209" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="598" y1="208" x2="598" y2="211.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="598" cy="206.5" r="0.7" fill="#9CA3AF"/>
+<rect x="620" y="145" width="217" height="75" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="629" y="160" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_06</text>
+<circle cx="815" cy="169" r="14" fill="#E8734A"/>
+<g transform="translate(807 161) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 20h19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></g>
+<text x="728.5" y="199" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >149</text>
+<circle cx="824" cy="210" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="824" y1="209" x2="824" y2="212.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="824" cy="207.5" r="0.7" fill="#9CA3AF"/>
+<rect x="846" y="145" width="216" height="75" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="855" y="160" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_07</text>
+<circle cx="1040" cy="169" r="14" fill="#D9534F"/>
+<g transform="translate(1032 161) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 4-3 3 3 3"/><path d="M4 7h11"/><path d="m17 20 3-3-3-3"/><path d="M20 17H9"/></g>
+<text x="954.0" y="199" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >472</text>
+<circle cx="1049" cy="210" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="1049" y1="209" x2="1049" y2="212.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="1049" cy="207.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168" y="231" width="443" height="169" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="257" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_01</text>
+<circle cx="180" cy="272.5" r="3" fill="#2E9E8F"/>
+<text x="186" y="275" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_01</text>
+<circle cx="297.25" cy="272.5" r="3" fill="#0B2A5B"/>
+<text x="303.25" y="275" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_02</text>
+<circle cx="399.1" cy="272.5" r="3" fill="#0B2A5B"/>
+<text x="405.1" y="275" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_03</text>
+<rect x="202" y="340.0" width="11" height="40.0" rx="0" fill="#2E9E8F"  />
+<rect x="215" y="357.8181283972381" width="11" height="22.181871602761863" rx="0" fill="#0B2A5B"  />
+<text x="207.5" y="338.0" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >31 980</text>
+<text x="220.5" y="355.8181283972381" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >23 809</text>
+<text x="214" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu A</text>
+<rect x="260" y="341.9227266049655" width="11" height="38.077273395034524" rx="0" fill="#2E9E8F"  />
+<rect x="273" y="361.0254150139562" width="11" height="18.97458498604378" rx="0" fill="#0B2A5B"  />
+<text x="265.5" y="339.9227266049655" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >22 648</text>
+<text x="278.5" y="359.0254150139562" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >12 570</text>
+<text x="272" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu B</text>
+<rect x="318" y="346.486264139856" width="11" height="33.51373586014397" rx="0" fill="#2E9E8F"  />
+<rect x="331" y="359.9806081974438" width="11" height="20.019391802556193" rx="0" fill="#0B2A5B"  />
+<text x="323.5" y="344.486264139856" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >31 423</text>
+<text x="336.5" y="357.9806081974438" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >23 135</text>
+<text x="330" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu C</text>
+<rect x="376" y="350.205964448362" width="11" height="29.794035551638018" rx="0" fill="#2E9E8F"  />
+<rect x="389" y="362.7095636844425" width="11" height="17.290436315557514" rx="0" fill="#0B2A5B"  />
+<text x="381.5" y="348.205964448362" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >26 915</text>
+<text x="394.5" y="360.7095636844425" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >13 496</text>
+<text x="388" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu D</text>
+<rect x="434" y="359.6080505362127" width="11" height="20.391949463787277" rx="0" fill="#2E9E8F"  />
+<rect x="447" y="366.7125018363449" width="11" height="13.28749816365506" rx="0" fill="#0B2A5B"  />
+<text x="439.5" y="357.6080505362127" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >23 962</text>
+<text x="452.5" y="364.7125018363449" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >7 205</text>
+<text x="446" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu E</text>
+<rect x="492" y="361.5883649184663" width="11" height="18.411635081533714" rx="0" fill="#2E9E8F"  />
+<rect x="505" y="367.8724842074335" width="11" height="12.127515792566475" rx="0" fill="#0B2A5B"  />
+<text x="497.5" y="359.5883649184663" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >20 159</text>
+<text x="510.5" y="365.8724842074335" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >8 582</text>
+<text x="504" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu F</text>
+<rect x="550" y="364.48068165124135" width="11" height="15.519318348758631" rx="0" fill="#2E9E8F"  />
+<rect x="563" y="369.4755398854121" width="11" height="10.524460114587924" rx="0" fill="#0B2A5B"  />
+<text x="555.5" y="362.48068165124135" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >9 447</text>
+<text x="568.5" y="367.4755398854121" font-size="5.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >6 217</text>
+<text x="562" y="386" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Tribu G</text>
+<polyline fill="none" stroke="#0B2A5B" stroke-width="1.5" points="214,307.6552 272,324.802 330,319.8052 388,316.4716 446,332.938 504,337.2544 562,339.904"/>
+<circle cx="214" cy="307.6552" r="2.5" fill="#0B2A5B"/>
+<text x="214" y="302.6552" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >14 241 K€</text>
+<circle cx="272" cy="324.802" r="2.5" fill="#0B2A5B"/>
+<text x="272" y="319.802" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >15 104 K€</text>
+<circle cx="330" cy="319.8052" r="2.5" fill="#0B2A5B"/>
+<text x="330" y="314.8052" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >10 009 K€</text>
+<circle cx="388" cy="316.4716" r="2.5" fill="#0B2A5B"/>
+<text x="388" y="311.4716" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >15 307 K€</text>
+<circle cx="446" cy="332.938" r="2.5" fill="#0B2A5B"/>
+<text x="446" y="327.938" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >10 884 K€</text>
+<circle cx="504" cy="337.2544" r="2.5" fill="#0B2A5B"/>
+<text x="504" y="332.2544" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >7 719 K€</text>
+<circle cx="562" cy="339.904" r="2.5" fill="#0B2A5B"/>
+<text x="562" y="334.904" font-size="6" fill="#1F2937" font-weight="bold" text-anchor="middle" >8 160 K€</text>
+<text x="508" y="393" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="start" ></text>
+<rect x="620" y="231" width="442" height="169" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="629" y="257" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_02</text>
+<circle cx="632" cy="272.5" r="3" fill="#2E9E8F"/>
+<text x="638" y="275" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_04</text>
+<circle cx="699.2" cy="272.5" r="3" fill="#0B2A5B"/>
+<text x="705.2" y="275" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_05</text>
+<rect x="645.0" y="307.74611538254743" width="16" height="72.25388461745256" rx="0" fill="#2E9E8F"  />
+<text x="653.0" y="304.74611538254743" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >11 651</text>
+<text x="653.0" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Jan</text>
+<rect x="679.4" y="312.32297435345987" width="16" height="67.67702564654013" rx="0" fill="#2E9E8F"  />
+<text x="687.4" y="309.32297435345987" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >10 870</text>
+<text x="687.4" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Fév</text>
+<rect x="713.8" y="305.0" width="16" height="75.0" rx="0" fill="#2E9E8F"  />
+<text x="721.8" y="302.0" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >14 224</text>
+<text x="721.8" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Mar</text>
+<rect x="748.2" y="313.87547717619225" width="16" height="66.12452282380774" rx="0" fill="#2E9E8F"  />
+<text x="756.2" y="310.87547717619225" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >18 765</text>
+<text x="756.2" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Avr</text>
+<rect x="782.6" y="330.72718963385125" width="16" height="49.27281036614872" rx="0" fill="#2E9E8F"  />
+<text x="790.6" y="327.72718963385125" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >11 511</text>
+<text x="790.6" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Mai</text>
+<rect x="817.0" y="318.0894134093231" width="16" height="61.91058659067692" rx="0" fill="#2E9E8F"  />
+<text x="825.0" y="315.0894134093231" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >13 070</text>
+<text x="825.0" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Juin</text>
+<rect x="851.4" y="329.31179095650305" width="16" height="50.68820904349696" rx="0" fill="#2E9E8F"  />
+<text x="859.4" y="326.31179095650305" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >13 430</text>
+<text x="859.4" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Juil</text>
+<rect x="885.8" y="356.377762245282" width="16" height="23.622237754717997" rx="0" fill="#2E9E8F"  />
+<text x="893.8" y="353.377762245282" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >5 639</text>
+<text x="893.8" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Août</text>
+<rect x="920.2" y="379.9717726759503" width="16" height="0.02822732404968009" rx="0" fill="#2E9E8F"  />
+<text x="928.2" y="376.9717726759503" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >6</text>
+<text x="928.2" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Sept</text>
+<rect x="954.5999999999999" y="380.0" width="16" height="0.0" rx="0" fill="#2E9E8F"  />
+<text x="962.5999999999999" y="377.0" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >0</text>
+<text x="962.5999999999999" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Oct</text>
+<rect x="989.0" y="380.0" width="16" height="0.0" rx="0" fill="#2E9E8F"  />
+<text x="997.0" y="377.0" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >0</text>
+<text x="997.0" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Nov</text>
+<rect x="1023.4000000000001" y="380.0" width="16" height="0.0" rx="0" fill="#2E9E8F"  />
+<text x="1031.4" y="377.0" font-size="6" fill="#1F2937" font-weight="normal" text-anchor="middle" >0</text>
+<text x="1031.4" y="388" font-size="6" fill="#6B7280" font-weight="normal" text-anchor="middle" >Déc</text>
+<rect x="168" y="407" width="894" height="303" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="426" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_03</text>
+<circle cx="302" cy="422" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="302" y1="421" x2="302" y2="424.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="302" cy="419.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168" y="433" width="894" height="43" rx="0" fill="#0B2A5B"  />
+<text x="442" y="445" font-size="7.5" fill="white" font-weight="bold" text-anchor="middle" >COL_01</text>
+<text x="800" y="445" font-size="7.5" fill="white" font-weight="bold" text-anchor="middle" >COL_02</text>
+<line x1="374" y1="433" x2="374" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="508" y1="433" x2="508" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="556" y1="433" x2="556" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="1006" y1="433" x2="1006" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="374" y1="452" x2="508" y2="452" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="556" y1="452" x2="1006" y2="452" stroke="#2F4A7A" stroke-width="1"/>
+<text x="176" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_03</text>
+<text x="227" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_04</text>
+<text x="275" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_05</text>
+<text x="338" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_06</text>
+<text x="381" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_07</text>
+<text x="436" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_08</text>
+<text x="462" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_09</text>
+<line x1="222" y1="452" x2="222" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="271" y1="452" x2="271" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="333" y1="452" x2="333" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="431" y1="452" x2="431" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="458" y1="452" x2="458" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<text x="552" y="460" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Total</text>
+<text x="552" y="470" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_10</text>
+<text x="587.0" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Jan</text>
+<text x="624.7" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Fév</text>
+<text x="662.4" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Mar</text>
+<text x="700.1" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Avr</text>
+<text x="737.8" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Mai</text>
+<text x="775.5" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Juin</text>
+<text x="813.2" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Juil</text>
+<text x="850.9000000000001" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Août</text>
+<text x="888.6" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Sept</text>
+<text x="926.3" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Oct</text>
+<text x="964.0" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Nov</text>
+<text x="1001.7" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >Déc</text>
+<line x1="595.0" y1="452" x2="595.0" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="632.7" y1="452" x2="632.7" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="670.4" y1="452" x2="670.4" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="708.1" y1="452" x2="708.1" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="745.8" y1="452" x2="745.8" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="783.5" y1="452" x2="783.5" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="821.2" y1="452" x2="821.2" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="858.9000000000001" y1="452" x2="858.9000000000001" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="896.6" y1="452" x2="896.6" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="934.3" y1="452" x2="934.3" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="972.0" y1="452" x2="972.0" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="1009.7" y1="452" x2="1009.7" y2="476" stroke="#2F4A7A" stroke-width="1"/>
+<text x="1057" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_11</text>
+<text x="176" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu H</text>
+<text x="227" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 01</text>
+<text x="275" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_03</text>
+<text x="338" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-001</text>
+<text x="436" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="462" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="552" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >266</text>
+<text x="587.0" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="624.7" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="662.4" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >23</text>
+<text x="700.1" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >21</text>
+<text x="737.8" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="775.5" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >26</text>
+<text x="813.2" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="850.9000000000001" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="888.6" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="926.3" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >21</text>
+<text x="964.0" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="1001.7" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="1057" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >299,04 K€</text>
+<line x1="168" y1="499" x2="1062" y2="499" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu A</text>
+<text x="227" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="275" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_05</text>
+<text x="338" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-002</text>
+<text x="436" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="462" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société B</text>
+<text x="552" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >127</text>
+<text x="587.0" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="624.7" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="662.4" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >23</text>
+<text x="700.1" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >27</text>
+<text x="737.8" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >12</text>
+<text x="775.5" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="813.2" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19</text>
+<text x="850.9000000000001" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="888.6" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >9</text>
+<text x="926.3" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >18</text>
+<text x="964.0" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >12</text>
+<text x="1001.7" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19</text>
+<text x="1057" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >336,55 K€</text>
+<line x1="168" y1="525" x2="1062" y2="525" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu G</text>
+<text x="227" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 03</text>
+<text x="275" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_06</text>
+<text x="338" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-003</text>
+<text x="436" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PU</text>
+<text x="462" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société C</text>
+<text x="552" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >141</text>
+<text x="587.0" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="624.7" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >22</text>
+<text x="662.4" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >31</text>
+<text x="700.1" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="737.8" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >11</text>
+<text x="775.5" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >20</text>
+<text x="813.2" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >25</text>
+<text x="850.9000000000001" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >7</text>
+<text x="888.6" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >12</text>
+<text x="926.3" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="964.0" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="1001.7" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >11</text>
+<text x="1057" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >340,00 K€</text>
+<line x1="168" y1="551" x2="1062" y2="551" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu A</text>
+<text x="227" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="275" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_07</text>
+<text x="338" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-004</text>
+<text x="436" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="462" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société B</text>
+<text x="552" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >138</text>
+<text x="587.0" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="624.7" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="662.4" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >29</text>
+<text x="700.1" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="737.8" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="775.5" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >21</text>
+<text x="813.2" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3</text>
+<text x="850.9000000000001" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >8</text>
+<text x="888.6" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >21</text>
+<text x="926.3" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >18</text>
+<text x="964.0" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19</text>
+<text x="1001.7" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="1057" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >354,03 K€</text>
+<line x1="168" y1="577" x2="1062" y2="577" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu E</text>
+<text x="227" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 04</text>
+<text x="275" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_08</text>
+<text x="338" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-005</text>
+<text x="436" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="462" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société D</text>
+<text x="552" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >264</text>
+<text x="587.0" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="624.7" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="662.4" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="700.1" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="737.8" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="775.5" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >22</text>
+<text x="813.2" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="850.9000000000001" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >9</text>
+<text x="888.6" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >11</text>
+<text x="926.3" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >21</text>
+<text x="964.0" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="1001.7" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="1057" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >366,71 K€</text>
+<line x1="168" y1="603" x2="1062" y2="603" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu A</text>
+<text x="227" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="275" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_09</text>
+<text x="338" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-006</text>
+<text x="436" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="462" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société B</text>
+<text x="552" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >225</text>
+<text x="587.0" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="624.7" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="662.4" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="700.1" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >13</text>
+<text x="737.8" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >18</text>
+<text x="775.5" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >23</text>
+<text x="813.2" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >23</text>
+<text x="850.9000000000001" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >25</text>
+<text x="888.6" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >11</text>
+<text x="926.3" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >20</text>
+<text x="964.0" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="1001.7" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >7</text>
+<text x="1057" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >167,52 K€</text>
+<line x1="168" y1="629" x2="1062" y2="629" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu D</text>
+<text x="227" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 05</text>
+<text x="275" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_10</text>
+<text x="338" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_04</text>
+<text x="381" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-007</text>
+<text x="436" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Interne</text>
+<text x="462" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société E</text>
+<text x="552" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >135</text>
+<text x="587.0" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="624.7" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="662.4" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19</text>
+<text x="700.1" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="737.8" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >4</text>
+<text x="775.5" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="813.2" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="850.9000000000001" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >9</text>
+<text x="888.6" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >14</text>
+<text x="926.3" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >29</text>
+<text x="964.0" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >17</text>
+<text x="1001.7" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >6</text>
+<text x="1057" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >202,34 K€</text>
+<line x1="168" y1="655" x2="1062" y2="655" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu D</text>
+<text x="227" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 05</text>
+<text x="275" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_11</text>
+<text x="338" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_12</text>
+<text x="381" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES-008</text>
+<text x="436" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PU</text>
+<text x="462" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société F</text>
+<text x="552" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >138</text>
+<text x="587.0" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19</text>
+<text x="624.7" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="662.4" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="700.1" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >29</text>
+<text x="737.8" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >15</text>
+<text x="775.5" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >22</text>
+<text x="813.2" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3,0</text>
+<text x="850.9000000000001" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >8</text>
+<text x="888.6" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="926.3" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >10</text>
+<text x="964.0" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0,6</text>
+<text x="1001.7" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="1057" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >182,90 K€</text>
+<line x1="168" y1="681" x2="1062" y2="681" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="start" >Total</text>
+<text x="552" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >146 946</text>
+<text x="587.0" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >31K</text>
+<text x="624.7" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >22K</text>
+<text x="662.4" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >17K</text>
+<text x="700.1" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >24K</text>
+<text x="737.8" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >11K</text>
+<text x="775.5" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >22K</text>
+<text x="813.2" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >28K</text>
+<text x="850.9000000000001" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >22K</text>
+<text x="888.6" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >22K</text>
+<text x="926.3" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >15K</text>
+<text x="964.0" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >15K</text>
+<text x="1001.7" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >11K</text>
+<text x="1057" y="698" font-size="7.5" fill="#1F2937" font-weight="bold" text-anchor="end" >140 877 K€</text>
+</svg>

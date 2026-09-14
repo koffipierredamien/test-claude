@@ -1,0 +1,8 @@
+﻿StatutID;Statut;OrdreStatut;CouleurStatut
+ST1;À cadrer;1;#E8734A
+ST2;Cadré;2;#E0B23A
+ST3;En cours;3;#0B2A5B
+ST4;En recette;4;#5B3F8F
+ST5;Livré;5;#2E9E8F
+ST6;Suspendu;6;#D9534F
+ST7;Abandonné;7;#9CA3AF

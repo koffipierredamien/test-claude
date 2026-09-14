@@ -1,0 +1,378 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Noto Sans, Open Sans, Helvetica Neue, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowNzM1YTA5MC1lYWEwLTQ2MDEtYjBhOS1jYzQ2ZTA4NmI3YzQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaBIad0I/IbhzMpR4VmRdF+AAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4NDhlN2FhNS1hNjMzLTRjMzgtOWZkYy1kNmUyNDhhZDAxYzFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoI6nApd43N5qOBwjPaO3xdwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggQmGmkItg5erPzwuA99FyH0yoj5cOO+Bwq8GuEIUcxp2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaFl0qcbZUuSFOqHaTb1UiMwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBDpY4E0NX0IFMm3BJVfKexWyfD7R1k5ZnP7GfmI92HWmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjoZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA3MzVhMDkwLWVhYTAtNDYwMS1iMGE5LWNjNDZlMDg2YjdjNC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmEwMjRkNmNkLTE0MzMtNDkwMS1iOTViLWU4MjE4ZDg4NGM1Y3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBCYaaQi2Dl6s/PC4D30XIfTKiPlw474HCrwa4QhRzGnaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgge2yHAC6yOt6BUR/gtKhjLpheC5T5pH2bUvqkpzvQ9ySiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggZavBkSd26sfKmFOs812kelTS6mHPptMkT3xgmmVKi5B0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHpsVSDdMmEyoiA5gHap5G33sz8P43O6IA08363GSvBXtepuONBhkB4tpHxPGpljLNaO33l7u1RtUuEwVfReKEs=</c2pa:manifest></metadata>
+<rect width="1280" height="720" fill="#F3F4F6"/>
+<rect x="0" y="0" width="160" height="720" rx="0" fill="white"  />
+<line x1="160" y1="0" x2="160" y2="720" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(16 13) scale(0.5833333333333334)" fill="none" stroke="#0B2A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="33" y="24.5" font-size="11.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >RAPPORT_01</text>
+<text x="10" y="49" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >CLIENT_01</text>
+<line x1="10" y1="77" x2="150" y2="77" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(17 98) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></g>
+<text x="38" y="110" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_06</text>
+<g transform="translate(17 142) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="38" y="154" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_07</text>
+<g transform="translate(17 186) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g>
+<text x="38" y="198" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_02</text>
+<g transform="translate(17 230) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="38" y="242" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_08</text>
+<rect x="7" y="260" width="145" height="44" rx="6" fill="#0B2A5B"  />
+<g transform="translate(17 274) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M8 13h8"/><path d="M8 16h5"/></g>
+<text x="38" y="286" font-size="12" fill="white" font-weight="bold" text-anchor="start" >PAGE_04</text>
+<g transform="translate(17 318) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.4 5.4L11 21a2 2 0 0 1-3-3l9.3-9.3a4 4 0 0 0 0-5.4z"/></g>
+<text x="38" y="330" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_05</text>
+<g transform="translate(9 682) scale(0.4166666666666667)" fill="none" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></g>
+<text x="24" y="686" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Dernière actualisation : 08/09/2026</text>
+<text x="24" y="695" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >06:30</text>
+<rect x="168" y="11" width="894" height="34" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="181" y="33" font-size="16.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >TITRE_03</text>
+<line x1="239" y1="19" x2="239" y2="37" stroke="#E5E7EB" stroke-width="1"/>
+<text x="249" y="32" font-size="9" fill="#6B7280" font-weight="normal" text-anchor="start" >SOUS_TITRE_02</text>
+<rect x="1072" y="11" width="190" height="699" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1081" y="33" font-size="12" fill="#1F2937" font-weight="bold" text-anchor="start" >TITRE_02</text>
+<rect x="1240" y="19" width="22" height="22" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<g transform="translate(1245 24) scale(0.5)" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21H18"/><path d="m5 16 9-9 5 5-7 7H8.5z"/></g>
+<text x="1081" y="59" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_02</text>
+<line x1="1116.2" y1="56" x2="1253" y2="56" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="79" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_08</text>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 91.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="125" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_09</text>
+<rect x="1081" y="133" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="147.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 137.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="174" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >Portfolio</text>
+<line x1="1131.8" y1="171" x2="1253" y2="171" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="1081" y="179" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="193.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 183.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="220" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_05</text>
+<line x1="1116.2" y1="217" x2="1253" y2="217" stroke="#E5E7EB" stroke-width="1"/>
+<rect x="1081" y="225" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="239.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 229.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="266" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_04</text>
+<line x1="1147.4" y1="263" x2="1253" y2="263" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="286" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_07</text>
+<rect x="1081" y="294" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="308.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 298.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="332" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_10</text>
+<rect x="1081" y="340" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="354.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 344.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="381" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_06</text>
+<line x1="1111.0" y1="378" x2="1253" y2="378" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="401" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_11</text>
+<rect x="1081" y="409" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="423.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 413.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="447" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_12</text>
+<rect x="1081" y="455" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="469.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 459.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="493" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_13</text>
+<rect x="1081" y="501" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="515.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 505.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="168.0" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177.0" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_08</text>
+<circle cx="318.4" cy="78" r="14" fill="#0B2A5B"/>
+<g transform="translate(310.4 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M8 13h8"/><path d="M8 16h5"/></g>
+<text x="254.2" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >547</text>
+<text x="254.2" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >TXT_01</text>
+<circle cx="327.4" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="327.4" y1="122" x2="327.4" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="327.4" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="348.4" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="357.4" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_09</text>
+<circle cx="498.79999999999995" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(490.79999999999995 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M3 10h18"/><path d="M16 15h2"/></g>
+<text x="434.59999999999997" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >260 717 K€</text>
+<text x="434.59999999999997" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >TXT_02</text>
+<circle cx="507.79999999999995" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="507.79999999999995" y1="122" x2="507.79999999999995" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="507.79999999999995" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="528.8" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="537.8" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_10</text>
+<circle cx="679.1999999999999" cy="78" r="14" fill="#2E9E8F"/>
+<g transform="translate(671.1999999999999 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6a7 7 0 0 0-11 5.5A7 7 0 0 0 17 18"/><path d="M4 10h9"/><path d="M4 14h9"/></g>
+<text x="615.0" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >191 047 K€</text>
+<text x="615.0" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >TXT_03</text>
+<circle cx="688.1999999999999" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="688.1999999999999" y1="122" x2="688.1999999999999" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="688.1999999999999" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="709.2" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="718.2" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_11</text>
+<circle cx="859.6" cy="78" r="14" fill="#0B2A5B"/>
+<g transform="translate(851.6 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></g>
+<text x="795.4000000000001" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >282 045 K€</text>
+<text x="795.4000000000001" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >107,4 % du budget cible</text>
+<circle cx="868.6" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="868.6" y1="122" x2="868.6" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="868.6" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="889.6" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="898.6" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_12</text>
+<circle cx="1040.0" cy="78" r="14" fill="#5B3F8F"/>
+<g transform="translate(1032.0 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/></g>
+<text x="975.8000000000001" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >121 927 K€</text>
+<text x="975.8000000000001" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >61,5 % du budget cible</text>
+<circle cx="1049.0" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="1049.0" y1="122" x2="1049.0" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="1049.0" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168.0" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="190.0" cy="169.0" r="12" fill="#E8734A"/>
+<g transform="translate(183.0 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></g>
+<text x="210.0" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_13</text>
+<text x="301.3" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >14</text>
+<rect x="318.3" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="340.3" cy="169.0" r="12" fill="#E8734A"/>
+<g transform="translate(333.3 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5"/><path d="m9.5 13 4 4"/><path d="m13.5 13-4 4"/></g>
+<text x="360.3" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_14</text>
+<text x="451.6" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >10</text>
+<rect x="468.6" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="490.6" cy="169.0" r="12" fill="#D9534F"/>
+<g transform="translate(483.6 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 20h19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></g>
+<text x="510.6" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_15</text>
+<text x="601.9000000000001" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >35</text>
+<rect x="618.9000000000001" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="640.9000000000001" cy="169.0" r="12" fill="#5B3F8F"/>
+<g transform="translate(633.9000000000001 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></g>
+<text x="660.9000000000001" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_16</text>
+<text x="752.2" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >22</text>
+<rect x="769.2" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="791.2" cy="169.0" r="12" fill="#D9534F"/>
+<g transform="translate(784.2 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="m12 16 4-6"/></g>
+<text x="811.2" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_17</text>
+<text x="811.2" y="173.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_18</text>
+<text x="902.5" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >77</text>
+<rect x="919.5" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="941.5" cy="169.0" r="12" fill="#0B2A5B"/>
+<g transform="translate(934.5 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/></g>
+<text x="961.5" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_19</text>
+<text x="961.5" y="173.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_20</text>
+<text x="1052.8" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >109</text>
+<rect x="168" y="205" width="313" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="226" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_04</text>
+<circle cx="180" cy="242.5" r="3" fill="#0B2A5B"/>
+<text x="186" y="245" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_06</text>
+<rect x="185.0" y="296.5917159763314" width="10" height="19.40828402366864" rx="0" fill="#0B2A5B"  />
+<text x="190.0" y="294.5917159763314" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >8 026</text>
+<text x="192.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 192.0 322)">Portfolio 01</text>
+<rect x="201.2" y="286.6508875739645" width="10" height="29.349112426035504" rx="0" fill="#0B2A5B"  />
+<text x="206.2" y="284.6508875739645" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >14 634</text>
+<text x="208.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 208.2 322)">Portfolio 02</text>
+<rect x="217.4" y="280.9704142011834" width="10" height="35.02958579881657" rx="0" fill="#0B2A5B"  />
+<text x="222.4" y="278.9704142011834" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >15 469</text>
+<text x="224.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 224.4 322)">Portfolio 03</text>
+<rect x="233.6" y="301.5621301775148" width="10" height="14.437869822485206" rx="0" fill="#0B2A5B"  />
+<text x="238.6" y="299.5621301775148" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >5 251</text>
+<text x="240.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 240.6 322)">Portfolio 04</text>
+<rect x="249.8" y="293.98816568047334" width="10" height="22.011834319526628" rx="0" fill="#0B2A5B"  />
+<text x="254.8" y="291.98816568047334" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >9 437</text>
+<text x="256.8" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 256.8 322)">Portfolio 05</text>
+<rect x="266.0" y="299.43195266272187" width="10" height="16.568047337278106" rx="0" fill="#0B2A5B"  />
+<text x="271.0" y="297.43195266272187" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >7 310</text>
+<text x="273.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 273.0 322)">Portfolio 06</text>
+<rect x="282.2" y="289.49112426035504" width="10" height="26.50887573964497" rx="0" fill="#0B2A5B"  />
+<text x="287.2" y="287.49112426035504" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >13 747</text>
+<text x="289.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 289.2 322)">Portfolio 07</text>
+<rect x="298.4" y="300.85207100591714" width="10" height="15.14792899408284" rx="0" fill="#0B2A5B"  />
+<text x="303.4" y="298.85207100591714" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >4 383</text>
+<text x="305.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 305.4 322)">Portfolio 08</text>
+<rect x="314.6" y="276.0" width="10" height="40.0" rx="0" fill="#0B2A5B"  />
+<text x="319.6" y="274.0" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >17 715</text>
+<text x="321.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 321.6 322)">Portfolio 09</text>
+<rect x="330.79999999999995" y="292.094674556213" width="10" height="23.90532544378698" rx="0" fill="#0B2A5B"  />
+<text x="335.79999999999995" y="290.094674556213" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >8 068</text>
+<text x="337.79999999999995" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 337.79999999999995 322)">Portfolio 10</text>
+<rect x="347.0" y="283.81065088757396" width="10" height="32.18934911242604" rx="0" fill="#0B2A5B"  />
+<text x="352.0" y="281.81065088757396" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >11 173</text>
+<text x="354.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 354.0 322)">Portfolio 11</text>
+<rect x="363.2" y="297.06508875739644" width="10" height="18.93491124260355" rx="0" fill="#0B2A5B"  />
+<text x="368.2" y="295.06508875739644" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >9 742</text>
+<text x="370.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 370.2 322)">Portfolio 12</text>
+<rect x="379.4" y="292.56804733727813" width="10" height="23.431952662721894" rx="0" fill="#0B2A5B"  />
+<text x="384.4" y="290.56804733727813" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >9 961</text>
+<text x="386.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 386.4 322)">Portfolio 13</text>
+<rect x="395.6" y="298.9585798816568" width="10" height="17.041420118343197" rx="0" fill="#0B2A5B"  />
+<text x="400.6" y="296.9585798816568" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >7 556</text>
+<text x="402.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 402.6 322)">Portfolio 14</text>
+<rect x="411.79999999999995" y="286.1775147928994" width="10" height="29.82248520710059" rx="0" fill="#0B2A5B"  />
+<text x="416.79999999999995" y="284.1775147928994" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >15 221</text>
+<text x="418.79999999999995" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 418.79999999999995 322)">Portfolio 15</text>
+<rect x="428.0" y="293.75147928994085" width="10" height="22.24852071005917" rx="0" fill="#0B2A5B"  />
+<text x="433.0" y="291.75147928994085" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >12 502</text>
+<text x="435.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 435.0 322)">Portfolio 16</text>
+<rect x="444.2" y="288.07100591715977" width="10" height="27.928994082840237" rx="0" fill="#0B2A5B"  />
+<text x="449.2" y="286.07100591715977" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >11 264</text>
+<text x="451.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 451.2 322)">Portfolio 17</text>
+<rect x="460.4" y="298.72189349112426" width="10" height="17.27810650887574" rx="0" fill="#0B2A5B"  />
+<text x="465.4" y="296.72189349112426" font-size="5" fill="#1F2937" font-weight="normal" text-anchor="middle" >7 957</text>
+<text x="467.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 467.4 322)">Portfolio 18</text>
+<rect x="489" y="205" width="314" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="498" y="220" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_05</text>
+<circle cx="755" cy="216" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="755" y1="215" x2="755" y2="218.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="755" cy="213.5" r="0.7" fill="#9CA3AF"/>
+<rect x="489" y="230" width="314" height="23" rx="0" fill="#0B2A5B"  />
+<text x="497" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_03</text>
+<text x="642" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_12</text>
+<text x="686" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_13</text>
+<text x="747" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_14</text>
+<text x="795" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_15</text>
+<text x="497" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu E</text>
+<text x="642" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >6 207</text>
+<text x="686" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >7 484</text>
+<text x="747" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+1 422</text>
+<text x="795" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+19,1 %</text>
+<text x="497" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu C</text>
+<text x="642" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 326</text>
+<text x="686" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 641</text>
+<text x="747" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+631</text>
+<text x="795" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+16,7 %</text>
+<text x="497" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu G</text>
+<text x="642" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 787</text>
+<text x="686" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >4 401</text>
+<text x="747" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+275</text>
+<text x="795" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+12,3 %</text>
+<text x="497" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu A</text>
+<text x="642" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 359</text>
+<text x="686" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 436</text>
+<text x="747" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+157</text>
+<text x="795" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+6,2 %</text>
+<text x="497" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu I</text>
+<text x="642" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 728</text>
+<text x="686" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 982</text>
+<text x="747" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+120</text>
+<text x="795" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+3,5 %</text>
+<rect x="811" y="205" width="251" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="820" y="227" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_06</text>
+<path d="M875.00,256.00 A44,44 0 1 1 851.96,262.51 L861.39,277.85 A26,26 0 1 0 875.00,274.00 Z" fill="#0B2A5B" stroke="white" stroke-width="1"/>
+<path d="M851.96,262.51 A44,44 0 0 1 865.91,256.95 L869.63,274.56 A26,26 0 0 0 861.39,277.85 Z" fill="#2E9E8F" stroke="white" stroke-width="1"/>
+<path d="M865.91,256.95 A44,44 0 0 1 869.62,256.33 L871.82,274.19 A26,26 0 0 0 869.63,274.56 Z" fill="#5B3F8F" stroke="white" stroke-width="1"/>
+<path d="M869.62,256.33 A44,44 0 0 1 872.84,256.05 L873.73,274.03 A26,26 0 0 0 871.82,274.19 Z" fill="#3F8F3F" stroke="white" stroke-width="1"/>
+<path d="M872.84,256.05 A44,44 0 0 1 875.00,256.00 L875.00,274.00 A26,26 0 0 0 873.73,274.03 Z" fill="#E8734A" stroke="white" stroke-width="1"/>
+<circle cx="946" cy="270" r="3.5" fill="#0B2A5B"/>
+<text x="954" y="273" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_13 · 531 · 99,90 %</text>
+<circle cx="946" cy="287" r="3.5" fill="#2E9E8F"/>
+<text x="954" y="290" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_14 · 37 · 3,95 %</text>
+<circle cx="946" cy="304" r="3.5" fill="#5B3F8F"/>
+<text x="954" y="307" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_15 · 8 · 1,53 %</text>
+<circle cx="946" cy="321" r="3.5" fill="#3F8F3F"/>
+<text x="954" y="324" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_16 · 4 · 1,53 %</text>
+<circle cx="946" cy="338" r="3.5" fill="#E8734A"/>
+<text x="954" y="341" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_17 · 5 · 0,61 %</text>
+<rect x="168" y="397" width="443" height="313" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="413" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_07</text>
+<circle cx="482.0" cy="409" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="482.0" y1="408" x2="482.0" y2="411.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="482.0" cy="406.5" r="0.7" fill="#9CA3AF"/>
+<rect x="510" y="400" width="92" height="20" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="518" y="413.5" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >Top 10</text>
+<g transform="translate(589 405) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="168" y="425" width="443" height="22" rx="0" fill="#0B2A5B"  />
+<text x="176" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_16</text>
+<text x="252" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_17</text>
+<text x="478" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_18</text>
+<text x="548" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_19</text>
+<text x="606" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_14</text>
+<text x="176" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000001</text>
+<text x="252" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_18</text>
+<text x="478" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 860</text>
+<text x="548" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 627</text>
+<text x="606" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+752</text>
+<text x="176" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000002</text>
+<text x="252" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_19</text>
+<text x="478" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 060</text>
+<text x="548" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 386</text>
+<text x="606" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+295</text>
+<text x="176" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000003</text>
+<text x="252" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_20</text>
+<text x="478" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >794</text>
+<text x="548" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 104</text>
+<text x="606" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+218</text>
+<text x="176" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000004</text>
+<text x="252" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_21</text>
+<text x="478" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >726</text>
+<text x="548" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 017</text>
+<text x="606" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+271</text>
+<text x="176" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000005</text>
+<text x="252" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_22</text>
+<text x="478" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >769</text>
+<text x="548" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 534</text>
+<text x="606" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+210</text>
+<text x="176" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000006</text>
+<text x="252" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_23</text>
+<text x="478" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >375</text>
+<text x="548" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >705</text>
+<text x="606" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+225</text>
+<text x="176" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000007</text>
+<text x="252" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_24</text>
+<text x="478" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >737</text>
+<text x="548" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >549</text>
+<text x="606" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+155</text>
+<text x="176" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000008</text>
+<text x="252" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_25</text>
+<text x="478" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >517</text>
+<text x="548" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >705</text>
+<text x="606" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+63</text>
+<text x="176" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000009</text>
+<text x="252" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_26</text>
+<text x="478" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >455</text>
+<text x="548" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >387</text>
+<text x="606" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+64</text>
+<text x="176" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000010</text>
+<text x="252" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_27</text>
+<text x="478" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >310</text>
+<text x="548" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >301</text>
+<text x="606" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+45</text>
+<rect x="620" y="397" width="442" height="313" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="629" y="413" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_08</text>
+<circle cx="934.0" cy="409" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="934.0" y1="408" x2="934.0" y2="411.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="934.0" cy="406.5" r="0.7" fill="#9CA3AF"/>
+<rect x="961" y="400" width="92" height="20" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="969" y="413.5" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >Top 10</text>
+<g transform="translate(1040 405) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="620" y="425" width="442" height="22" rx="0" fill="#0B2A5B"  />
+<text x="626" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_16</text>
+<text x="703" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_17</text>
+<text x="932" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_18</text>
+<text x="994" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_20</text>
+<text x="1057" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" ></text>
+<text x="626" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000011</text>
+<text x="703" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_28</text>
+<text x="932" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >851</text>
+<text x="994" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 145</text>
+<text x="1057" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >115,0 %</text>
+<text x="626" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000001</text>
+<text x="703" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_18</text>
+<text x="932" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 511</text>
+<text x="994" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 666</text>
+<text x="1057" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >138,1 %</text>
+<text x="626" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000012</text>
+<text x="703" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_29</text>
+<text x="932" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >603</text>
+<text x="994" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >440</text>
+<text x="1057" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >81,4 %</text>
+<text x="626" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000002</text>
+<text x="703" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_19</text>
+<text x="932" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 703</text>
+<text x="994" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 694</text>
+<text x="1057" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >80,1 %</text>
+<text x="626" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000013</text>
+<text x="703" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_30</text>
+<text x="932" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >419</text>
+<text x="994" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >411</text>
+<text x="1057" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >148,6 %</text>
+<text x="626" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000005</text>
+<text x="703" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_22</text>
+<text x="932" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >834</text>
+<text x="994" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 879</text>
+<text x="1057" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >76,4 %</text>
+<text x="626" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000014</text>
+<text x="703" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_31</text>
+<text x="932" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 148</text>
+<text x="994" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >980</text>
+<text x="1057" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >99,7 %</text>
+<text x="626" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000006</text>
+<text x="703" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_23</text>
+<text x="932" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >636</text>
+<text x="994" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >923</text>
+<text x="1057" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >91,9 %</text>
+<text x="626" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000015</text>
+<text x="703" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_32</text>
+<text x="932" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >317</text>
+<text x="994" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >509</text>
+<text x="1057" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >87,5 %</text>
+<text x="626" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DMND0000007</text>
+<text x="703" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_24</text>
+<text x="932" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >502</text>
+<text x="994" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >580</text>
+<text x="1057" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >69,8 %</text>
+<text x="1057" y="434" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_21</text>
+</svg>
