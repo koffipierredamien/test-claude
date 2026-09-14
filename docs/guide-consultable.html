@@ -893,6 +893,22 @@ Alerte budget =
         </tbody>
       </table>
     </div>
+    <div class="note warn">
+      <span class="tag">« Je ne vois ce réglage nulle part »</span>
+      <p><strong>1 · Le visuel n'est pas sélectionné</strong> — le volet Format bascule alors sur les
+        réglages <em>de la page</em>. <strong>2 · Vous êtes sur l'onglet Général</strong> — les deux
+        onglets sont <em>Visuel</em> et <em>Général</em>&nbsp;; les unités d'affichage sont sous
+        <em>Visuel</em>. <strong>3 · La section est repliée</strong> — tapez <code>unit</code> dans la
+        zone de recherche en haut du volet Format, le réglage remonte où qu'il soit.
+        <strong>4 · Ce visuel n'a pas ce réglage</strong> — Table, Matrice et Segment n'en ont pas&nbsp;:
+        pour eux tout vient du format de la mesure.</p>
+      <p>Échappatoire imparable, si rien n'y fait&nbsp;: une mesure qui renvoie du <strong>texte</strong>.
+        Power BI ne peut pas abréger du texte.</p>
+    </div>
+    <pre><code>KPI_01 · libellé = <span class="dax-f">FORMAT</span> ( [Effectif], "#,##0" )</code></pre>
+    <p>À réserver aux cartes d'affichage&nbsp;: une mesure texte ne se trie plus et ne se compare plus
+      numériquement — jamais dans une colonne de tableau ni sur un axe.</p>
+
     <p>Sur une <strong>Carte</strong>, le chemin est Visuel → <strong>Valeur de légende</strong> →
       <strong>Unités d'affichage = Aucune</strong>, et <strong>Valeur décimale = 0</strong> juste en
       dessous. Sur une <strong>Carte (nouveau)</strong>, c'est Visuel → <strong>Valeur</strong>.</p>

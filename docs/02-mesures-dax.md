@@ -61,6 +61,32 @@ fréquente de « je n'arrive pas à enlever le K ».
 | 2. La mesure | Outils de mesure → Format | Fait foi partout où le visuel ne surcharge pas — tables et matrices notamment |
 | 3. Le visuel | Format → Unités d'affichage = **Aucune** | Rattrape les visuels créés avant le thème |
 
+### 0 · « Je ne vois ce réglage nulle part »
+
+Quatre causes, par ordre de fréquence :
+
+1. **Le visuel n'est pas sélectionné.** Le volet Format bascule alors sur les
+   réglages *de la page*. Cliquez sur la carte : son cadre doit s'entourer de
+   poignées.
+2. **Vous êtes sur l'onglet Général.** Le volet a deux onglets, **Visuel** et
+   **Général**. *Général* ne porte que position, taille, arrière-plan, bordure
+   et titre. Les unités d'affichage sont sous **Visuel**.
+3. **La section est repliée.** Utilisez la **zone de recherche en haut du volet
+   Format** et tapez `unit` — le réglage remonte où qu'il soit. En anglais,
+   `display`.
+4. **Ce visuel n'a pas ce réglage.** Table, Matrice et Segment n'en ont pas :
+   pour eux, tout vient du format de la mesure (niveau 2 ci-dessous).
+
+Si rien n'y fait, l'échappatoire imparable est une mesure qui renvoie du
+**texte** — Power BI ne peut pas abréger du texte :
+
+```dax
+KPI_01 · libellé = FORMAT ( [Effectif], "#,##0" )
+```
+
+À réserver aux cartes d'affichage : une mesure texte ne se trie plus et ne se
+compare plus numériquement, donc jamais dans une colonne de tableau ni sur un axe.
+
 ### 1 · Le thème
 
 Le fichier fourni force déjà `labelDisplayUnits: 1` (= Aucune) sur les cartes,
