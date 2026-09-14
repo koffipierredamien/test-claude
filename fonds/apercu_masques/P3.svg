@@ -1,0 +1,404 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Noto Sans, Open Sans, Helvetica Neue, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<rect width="1280" height="720" fill="#F3F4F6"/>
+<rect x="0" y="0" width="160" height="720" rx="0" fill="white"  />
+<line x1="160" y1="0" x2="160" y2="720" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(16 13) scale(0.5833333333333334)" fill="none" stroke="#0B2A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="33" y="24.5" font-size="11.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >RAPPORT_01</text>
+<text x="10" y="49" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >CLIENT_01</text>
+<line x1="10" y1="77" x2="150" y2="77" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(17 98) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></g>
+<text x="38" y="110" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_06</text>
+<g transform="translate(17 142) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="38" y="154" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_07</text>
+<g transform="translate(17 186) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g>
+<text x="38" y="198" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_02</text>
+<rect x="7" y="216" width="145" height="44" rx="6" fill="#0B2A5B"  />
+<g transform="translate(17 230) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="38" y="242" font-size="12" fill="white" font-weight="bold" text-anchor="start" >PAGE_08</text>
+<g transform="translate(17 274) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M8 13h8"/><path d="M8 16h5"/></g>
+<text x="38" y="286" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_04</text>
+<g transform="translate(17 318) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.4 5.4L11 21a2 2 0 0 1-3-3l9.3-9.3a4 4 0 0 0 0-5.4z"/></g>
+<text x="38" y="330" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_05</text>
+<g transform="translate(9 682) scale(0.4166666666666667)" fill="none" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></g>
+<text x="24" y="686" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Dernière actualisation : 08/09/2026</text>
+<text x="24" y="695" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >06:30</text>
+<rect x="168" y="11" width="894" height="34" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="181" y="33" font-size="16.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >TITRE_04</text>
+<line x1="389" y1="19" x2="389" y2="37" stroke="#E5E7EB" stroke-width="1"/>
+<text x="399" y="32" font-size="9" fill="#6B7280" font-weight="normal" text-anchor="start" >SOUS_TITRE_03</text>
+<rect x="1072" y="11" width="190" height="699" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1081" y="33" font-size="12" fill="#1F2937" font-weight="bold" text-anchor="start" >TITRE_02</text>
+<rect x="1240" y="19" width="22" height="22" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<g transform="translate(1245 24) scale(0.5)" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21H18"/><path d="m5 16 9-9 5 5-7 7H8.5z"/></g>
+<text x="1081" y="59" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_03</text>
+<line x1="1131.8" y1="56" x2="1253" y2="56" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="79" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_02</text>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 91.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="125" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_04</text>
+<rect x="1081" y="133" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="147.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 137.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="171" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_05</text>
+<rect x="1081" y="179" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="193.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 183.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="220" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_04</text>
+<line x1="1147.4" y1="217" x2="1253" y2="217" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="240" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_06</text>
+<rect x="1081" y="248" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="262.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 252.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="286" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_07</text>
+<rect x="1081" y="294" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="308.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 298.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="168.0" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177.0" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_21</text>
+<circle cx="363.0" cy="78" r="14" fill="#2E9E8F"/>
+<g transform="translate(355.0 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="276.5" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >1 510</text>
+<circle cx="372.0" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="372.0" y1="122" x2="372.0" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="372.0" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="393.7" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="402.7" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_22</text>
+<circle cx="588.7" cy="78" r="14" fill="#0B2A5B"/>
+<g transform="translate(580.7 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="m16 11 2 2 4-4"/></g>
+<text x="502.2" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >1 417</text>
+<text x="502.2" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >67,95 % de l&#x27;empreinte</text>
+<circle cx="597.7" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="597.7" y1="122" x2="597.7" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="597.7" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="619.4" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="628.4" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_23</text>
+<circle cx="814.4" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(806.4 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></g>
+<text x="727.9" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >242</text>
+<text x="727.9" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >26,40 % de l&#x27;empreinte</text>
+<circle cx="823.4" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="823.4" y1="122" x2="823.4" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="823.4" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="845.0999999999999" y="58" width="217" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="854.0999999999999" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_24</text>
+<circle cx="1040.1" cy="78" r="14" fill="#5B3F8F"/>
+<g transform="translate(1032.1 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M19 8v6"/><path d="M16 11h6"/></g>
+<text x="953.5999999999999" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >3</text>
+<text x="953.5999999999999" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >0,18 % de l&#x27;empreinte</text>
+<circle cx="1049.1" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="1049.1" y1="122" x2="1049.1" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="1049.1" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168" y="145" width="360" height="268" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="168" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_09</text>
+<circle cx="180" cy="182.5" r="3" fill="#0B2A5B"/>
+<text x="186" y="185" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >Société A</text>
+<circle cx="233.175" cy="182.5" r="3" fill="#2E9E8F"/>
+<text x="239.175" y="185" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >Société B</text>
+<circle cx="286.35" cy="182.5" r="3" fill="#5B3F8F"/>
+<text x="292.35" y="185" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >Société C</text>
+<circle cx="339.52500000000003" cy="182.5" r="3" fill="#3F8F3F"/>
+<text x="345.52500000000003" y="185" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >Société D</text>
+<circle cx="392.70000000000005" cy="182.5" r="3" fill="#E8734A"/>
+<text x="398.70000000000005" y="185" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >Société E</text>
+<circle cx="180" cy="193.5" r="3" fill="#6B7280"/>
+<text x="186" y="196" font-size="6.5" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_07</text>
+<path d="M360.07,253.83 A52,52 0 0 1 412.01,303.38 L390.04,304.42 A30,30 0 0 0 360.07,275.83 Z" fill="#0B2A5B"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="396.0,268.2 402.2,261.7 455.0,261.7"/>
+<text x="458" y="264.69153413193925" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="start" >444 · 30,43 %</text>
+<path d="M412.46,307.18 A52,52 0 0 1 379.38,358.09 L371.40,337.59 A30,30 0 0 0 390.48,308.22 Z" fill="#2E9E8F"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="404.1,338.0 411.7,342.9 455.0,342.9"/>
+<text x="458" y="345.8681391245744" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="start" >348 · 15,50 %</text>
+<path d="M376.86,359.46 A52,52 0 0 1 338.91,359.37 L346.98,338.91 A30,30 0 0 0 368.88,338.96 Z" fill="#5B3F8F"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="357.9,363.0 357.9,372.0 357.9,382.0"/>
+<text x="357.8592567625608" y="391" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="middle" >177 · 10,52 %</text>
+<path d="M337.34,358.93 A52,52 0 0 1 321.74,349.30 L336.42,332.91 A30,30 0 0 0 345.42,338.46 Z" fill="#3F8F3F"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="329.1,354.8 324.4,362.5 261.0,362.5"/>
+<text x="258" y="365.46364683486024" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="end" >52 · 3,51 %</text>
+<path d="M320.97,348.61 A52,52 0 0 1 310.10,334.95 L329.37,324.34 A30,30 0 0 0 335.64,332.22 Z" fill="#E8734A"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="315.0,342.2 307.9,347.8 261.0,347.8"/>
+<text x="258" y="350.84268508393836" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="end" >65 · 4,34 %</text>
+<path d="M309.87,331.55 A52,52 0 0 1 355.45,254.47 L355.44,276.47 A30,30 0 0 0 329.14,320.94 Z" fill="#6B7280"/>
+<polyline fill="none" stroke="#9CA3AF" stroke-width="0.8" points="310.7,280.0 302.9,275.4 261.0,275.4"/>
+<text x="258" y="278.42134939197626" font-size="7" fill="#1F2937" font-weight="normal" text-anchor="end" >561 · 45,08 %</text>
+<rect x="537" y="145" width="525" height="268" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="546" y="168" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_10</text>
+<circle cx="549" cy="183.5" r="3" fill="#2E9E8F"/>
+<text x="555" y="186" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Externe</text>
+<circle cx="596.95" cy="183.5" r="3" fill="#0B2A5B"/>
+<text x="602.95" y="186" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Interne</text>
+<rect x="559.0" y="225.0" width="14" height="90.0" rx="0" fill="#2E9E8F"  />
+<rect x="559.0" y="315.0" width="14" height="35.0" rx="0" fill="#0B2A5B"  />
+<text x="566.0" y="222.0" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >204</text>
+<text x="569.0" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 569.0 357)">Tribu 01</text>
+<rect x="582.6" y="243.77934272300467" width="14" height="76.47887323943662" rx="0" fill="#2E9E8F"  />
+<rect x="582.6" y="320.2582159624413" width="14" height="29.74178403755869" rx="0" fill="#0B2A5B"  />
+<text x="589.6" y="240.77934272300467" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >244</text>
+<text x="592.6" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 592.6 357)">Tribu 02</text>
+<rect x="606.2" y="257.2769953051643" width="14" height="66.7605633802817" rx="0" fill="#2E9E8F"  />
+<rect x="606.2" y="324.037558685446" width="14" height="25.962441314553992" rx="0" fill="#0B2A5B"  />
+<text x="613.2" y="254.2769953051643" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >220</text>
+<text x="616.2" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 616.2 357)">Tribu 03</text>
+<rect x="629.8" y="271.36150234741785" width="14" height="56.61971830985915" rx="0" fill="#2E9E8F"  />
+<rect x="629.8" y="327.981220657277" width="14" height="22.018779342723008" rx="0" fill="#0B2A5B"  />
+<text x="636.8" y="268.36150234741785" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >183</text>
+<text x="639.8" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 639.8 357)">Tribu 04</text>
+<rect x="653.4" y="280.7511737089202" width="14" height="49.85915492957746" rx="0" fill="#2E9E8F"  />
+<rect x="653.4" y="330.61032863849766" width="14" height="19.389671361502348" rx="0" fill="#0B2A5B"  />
+<text x="660.4" y="277.7511737089202" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >105</text>
+<text x="663.4" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 663.4 357)">Tribu 05</text>
+<rect x="677.0" y="285.44600938967136" width="14" height="46.47887323943662" rx="0" fill="#2E9E8F"  />
+<rect x="677.0" y="331.92488262910797" width="14" height="18.07511737089202" rx="0" fill="#0B2A5B"  />
+<text x="684.0" y="282.44600938967136" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >85</text>
+<text x="687.0" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 687.0 357)">Tribu 06</text>
+<rect x="700.6" y="301.2910798122066" width="14" height="35.070422535211264" rx="0" fill="#2E9E8F"  />
+<rect x="700.6" y="336.36150234741785" width="14" height="13.63849765258216" rx="0" fill="#0B2A5B"  />
+<text x="707.6" y="298.2910798122066" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >65</text>
+<text x="710.6" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 710.6 357)">Tribu 07</text>
+<rect x="724.2" y="301.2910798122066" width="14" height="35.070422535211264" rx="0" fill="#2E9E8F"  />
+<rect x="724.2" y="336.36150234741785" width="14" height="13.63849765258216" rx="0" fill="#0B2A5B"  />
+<text x="731.2" y="298.2910798122066" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >63</text>
+<text x="734.2" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 734.2 357)">Tribu 08</text>
+<rect x="747.8" y="301.8779342723005" width="14" height="34.64788732394366" rx="0" fill="#2E9E8F"  />
+<rect x="747.8" y="336.52582159624416" width="14" height="13.47417840375587" rx="0" fill="#0B2A5B"  />
+<text x="754.8" y="298.8779342723005" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >63</text>
+<text x="757.8" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 757.8 357)">Tribu 09</text>
+<rect x="771.4" y="320.65727699530515" width="14" height="21.12676056338028" rx="0" fill="#2E9E8F"  />
+<rect x="771.4" y="341.78403755868544" width="14" height="8.215962441314554" rx="0" fill="#0B2A5B"  />
+<text x="778.4" y="317.65727699530515" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >55</text>
+<text x="781.4" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 781.4 357)">Tribu 10</text>
+<rect x="795.0" y="321.24413145539904" width="14" height="20.704225352112676" rx="0" fill="#2E9E8F"  />
+<rect x="795.0" y="341.94835680751174" width="14" height="8.051643192488264" rx="0" fill="#0B2A5B"  />
+<text x="802.0" y="318.24413145539904" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >65</text>
+<text x="805.0" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 805.0 357)">Tribu 11</text>
+<rect x="818.6" y="326.52582159624416" width="14" height="16.901408450704224" rx="0" fill="#2E9E8F"  />
+<rect x="818.6" y="343.42723004694835" width="14" height="6.572769953051644" rx="0" fill="#0B2A5B"  />
+<text x="825.6" y="323.52582159624416" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >51</text>
+<text x="828.6" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 828.6 357)">Tribu 12</text>
+<rect x="842.2" y="329.4600938967136" width="14" height="14.788732394366196" rx="0" fill="#2E9E8F"  />
+<rect x="842.2" y="344.2488262910798" width="14" height="5.751173708920188" rx="0" fill="#0B2A5B"  />
+<text x="849.2" y="326.4600938967136" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >34</text>
+<text x="852.2" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 852.2 357)">Tribu 13</text>
+<rect x="865.8" y="329.4600938967136" width="14" height="14.788732394366196" rx="0" fill="#2E9E8F"  />
+<rect x="865.8" y="344.2488262910798" width="14" height="5.751173708920188" rx="0" fill="#0B2A5B"  />
+<text x="872.8" y="326.4600938967136" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >39</text>
+<text x="875.8" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 875.8 357)">Tribu 14</text>
+<rect x="889.4000000000001" y="332.981220657277" width="14" height="12.253521126760562" rx="0" fill="#2E9E8F"  />
+<rect x="889.4000000000001" y="345.23474178403757" width="14" height="4.765258215962442" rx="0" fill="#0B2A5B"  />
+<text x="896.4000000000001" y="329.981220657277" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >36</text>
+<text x="899.4000000000001" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 899.4000000000001 357)">Tribu 15</text>
+<rect x="913.0" y="338.26291079812205" width="14" height="8.450704225352112" rx="0" fill="#2E9E8F"  />
+<rect x="913.0" y="346.7136150234742" width="14" height="3.286384976525822" rx="0" fill="#0B2A5B"  />
+<text x="920.0" y="335.26291079812205" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >13</text>
+<text x="923.0" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 923.0 357)">Tribu 16</text>
+<rect x="936.6" y="339.4366197183099" width="14" height="7.6056338028169" rx="0" fill="#2E9E8F"  />
+<rect x="936.6" y="347.0422535211268" width="14" height="2.9577464788732395" rx="0" fill="#0B2A5B"  />
+<text x="943.6" y="336.4366197183099" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >20</text>
+<text x="946.6" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 946.6 357)">Tribu 17</text>
+<rect x="960.2" y="340.0234741784038" width="14" height="7.183098591549296" rx="0" fill="#2E9E8F"  />
+<rect x="960.2" y="347.206572769953" width="14" height="2.7934272300469485" rx="0" fill="#0B2A5B"  />
+<text x="967.2" y="337.0234741784038" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >23</text>
+<text x="970.2" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 970.2 357)">Tribu 18</text>
+<rect x="983.8" y="344.71830985915494" width="14" height="3.80281690140845" rx="0" fill="#2E9E8F"  />
+<rect x="983.8" y="348.5211267605634" width="14" height="1.4788732394366197" rx="0" fill="#0B2A5B"  />
+<text x="990.8" y="341.71830985915494" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >11</text>
+<text x="993.8" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 993.8 357)">Tribu 19</text>
+<rect x="1007.4000000000001" y="345.8920187793427" width="14" height="2.957746478873239" rx="0" fill="#2E9E8F"  />
+<rect x="1007.4000000000001" y="348.84976525821594" width="14" height="1.1502347417840377" rx="0" fill="#0B2A5B"  />
+<text x="1014.4000000000001" y="342.8920187793427" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >8</text>
+<text x="1017.4000000000001" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 1017.4000000000001 357)">Tribu 20</text>
+<rect x="1031.0" y="349.4131455399061" width="14" height="0.4225352112676056" rx="0" fill="#2E9E8F"  />
+<rect x="1031.0" y="349.8356807511737" width="14" height="0.1643192488262911" rx="0" fill="#0B2A5B"  />
+<text x="1038.0" y="346.4131455399061" font-size="6.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1</text>
+<text x="1041.0" y="357" font-size="6" fill="#6B7280" text-anchor="end" transform="rotate(-45 1041.0 357)">Tribu 21</text>
+<rect x="168" y="422" width="894" height="288" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="442" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_11</text>
+<circle cx="312" cy="438" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="312" y1="437" x2="312" y2="440.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="312" cy="435.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168" y="450" width="894" height="27" rx="0" fill="#0B2A5B"  />
+<text x="176" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_07</text>
+<text x="262" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_22</text>
+<text x="341" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_04</text>
+<text x="429" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >DICID</text>
+<text x="482" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_23</text>
+<text x="587" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_06</text>
+<text x="631" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_08</text>
+<text x="673" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_09</text>
+<text x="738" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_24</text>
+<text x="738" y="472" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >2026</text>
+<text x="789" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_25</text>
+<text x="873" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_26</text>
+<text x="919" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_27</text>
+<text x="958" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_28</text>
+<text x="958" y="472" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >HT</text>
+<text x="1002" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_29</text>
+<text x="1032" y="462" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_30</text>
+<text x="1057" y="467" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >FTE</text>
+<line x1="257" y1="450" x2="257" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="336" y1="450" x2="336" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="424" y1="450" x2="424" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="477" y1="450" x2="477" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="582" y1="450" x2="582" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="626" y1="450" x2="626" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="668" y1="450" x2="668" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="733" y1="450" x2="733" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="784" y1="450" x2="784" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="831" y1="450" x2="831" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="878" y1="450" x2="878" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="924" y1="450" x2="924" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="963" y1="450" x2="963" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="1007" y1="450" x2="1007" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<line x1="1037" y1="450" x2="1037" y2="477" stroke="#2F4A7A" stroke-width="1"/>
+<text x="176" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 01</text>
+<text x="262" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 01</text>
+<text x="429" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0001</text>
+<text x="482" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_33</text>
+<text x="587" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >437 €</text>
+<text x="958" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 136 €</text>
+<text x="1002" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >74 %</text>
+<text x="1032" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >19 %</text>
+<text x="1057" y="490" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="499" x2="1062" y2="499" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 02</text>
+<text x="262" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="429" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0002</text>
+<text x="482" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_34</text>
+<text x="587" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >30/01/2...</text>
+<text x="873" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >16</text>
+<text x="919" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >543 €</text>
+<text x="958" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 258 €</text>
+<text x="1002" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="516" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="525" x2="1062" y2="525" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 03</text>
+<text x="262" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="429" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0003</text>
+<text x="482" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_35</text>
+<text x="587" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Interne</text>
+<text x="631" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Interne</text>
+<text x="673" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société E</text>
+<text x="738" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >634 €</text>
+<text x="958" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >856 €</text>
+<text x="1002" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="542" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="551" x2="1062" y2="551" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 04</text>
+<text x="262" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="429" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0004</text>
+<text x="482" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_36</text>
+<text x="587" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société D</text>
+<text x="738" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >27/02/2...</text>
+<text x="873" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >24</text>
+<text x="919" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 076 €</text>
+<text x="958" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 855 €</text>
+<text x="1002" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="568" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0...</text>
+<line x1="168" y1="577" x2="1062" y2="577" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 05</text>
+<text x="262" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 03</text>
+<text x="429" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0005</text>
+<text x="482" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_37</text>
+<text x="587" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Interne</text>
+<text x="631" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Interne</text>
+<text x="673" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société E</text>
+<text x="738" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >795 €</text>
+<text x="958" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 234 €</text>
+<text x="1002" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >70 %</text>
+<text x="1032" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="594" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="603" x2="1062" y2="603" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 06</text>
+<text x="262" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 01</text>
+<text x="429" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0006</text>
+<text x="482" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_38</text>
+<text x="587" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >260 €</text>
+<text x="958" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >333 €</text>
+<text x="1002" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="620" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="629" x2="1062" y2="629" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 07</text>
+<text x="262" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="429" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0007</text>
+<text x="482" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_39</text>
+<text x="587" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >181 €</text>
+<text x="958" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >391 €</text>
+<text x="1002" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >8 %</text>
+<text x="1057" y="646" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="655" x2="1062" y2="655" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 08</text>
+<text x="262" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 02</text>
+<text x="429" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0008</text>
+<text x="482" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_40</text>
+<text x="587" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >31/12/2...</text>
+<text x="873" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0</text>
+<text x="919" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >158 €</text>
+<text x="958" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >235 €</text>
+<text x="1002" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >100 %</text>
+<text x="1032" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="672" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="681" x2="1062" y2="681" stroke="#F3F4F6" stroke-width="1"/>
+<text x="176" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RESSOURCE 09</text>
+<text x="262" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu 01</text>
+<text x="341" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Squad 01</text>
+<text x="429" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >RES0009</text>
+<text x="482" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_41</text>
+<text x="587" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Externe</text>
+<text x="631" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >ADC</text>
+<text x="673" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Société A</text>
+<text x="738" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >01/01/2...</text>
+<text x="789" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >30/01/2...</text>
+<text x="873" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >17</text>
+<text x="919" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >153 €</text>
+<text x="958" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >453 €</text>
+<text x="1002" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >88 %</text>
+<text x="1032" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >0 %</text>
+<text x="1057" y="698" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1...</text>
+<line x1="168" y1="707" x2="1062" y2="707" stroke="#F3F4F6" stroke-width="1"/>
+
+<rect x="169.0" y="82" width="178" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="394.7" y="82" width="178" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="620.4" y="82" width="178" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="846.0999999999999" y="82" width="178" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="169.0" y="178" width="358" height="234" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="538.0" y="178" width="523" height="234" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="169.0" y="452" width="892" height="257" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+</svg>

@@ -1,0 +1,425 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Noto Sans, Open Sans, Helvetica Neue, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<rect width="1280" height="720" fill="#F3F4F6"/>
+<rect x="0" y="0" width="160" height="720" rx="0" fill="white"  />
+<line x1="160" y1="0" x2="160" y2="720" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(16 13) scale(0.5833333333333334)" fill="none" stroke="#0B2A5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="33" y="24.5" font-size="11.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >RAPPORT_01</text>
+<text x="10" y="49" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >CLIENT_01</text>
+<line x1="10" y1="77" x2="150" y2="77" stroke="#E5E7EB" stroke-width="1"/>
+<g transform="translate(17 98) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></g>
+<text x="38" y="110" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_06</text>
+<g transform="translate(17 142) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M8 17v-6"/><path d="M13 17V7"/><path d="M18 17v-4"/></g>
+<text x="38" y="154" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_07</text>
+<g transform="translate(17 186) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g>
+<text x="38" y="198" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_02</text>
+<g transform="translate(17 230) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a5 5 0 0 1 3.5 6"/></g>
+<text x="38" y="242" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_08</text>
+<g transform="translate(17 274) scale(0.6666666666666666)" fill="none" stroke="#1F2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M8 13h8"/><path d="M8 16h5"/></g>
+<text x="38" y="286" font-size="12" fill="#1F2937" font-weight="normal" text-anchor="start" >PAGE_04</text>
+<rect x="7" y="304" width="145" height="44" rx="6" fill="#0B2A5B"  />
+<g transform="translate(17 318) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.4 5.4L11 21a2 2 0 0 1-3-3l9.3-9.3a4 4 0 0 0 0-5.4z"/></g>
+<text x="38" y="330" font-size="12" fill="white" font-weight="bold" text-anchor="start" >PAGE_05</text>
+<g transform="translate(9 682) scale(0.4166666666666667)" fill="none" stroke="#6B7280" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-15.5 6.2L3 16"/><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8"/><path d="M3 21v-5h5"/><path d="M21 3v5h-5"/></g>
+<text x="24" y="686" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >Dernière actualisation : 08/09/2026</text>
+<text x="24" y="695" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >06:30</text>
+<rect x="168" y="11" width="894" height="34" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="181" y="33" font-size="16.5" fill="#0B2A5B" font-weight="bold" text-anchor="start" >TITRE_05</text>
+<line x1="305" y1="19" x2="305" y2="37" stroke="#E5E7EB" stroke-width="1"/>
+<text x="315" y="32" font-size="9" fill="#6B7280" font-weight="normal" text-anchor="start" >SOUS_TITRE_04</text>
+<rect x="1072" y="11" width="190" height="699" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1081" y="33" font-size="12" fill="#1F2937" font-weight="bold" text-anchor="start" >TITRE_02</text>
+<rect x="1240" y="19" width="22" height="22" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<g transform="translate(1245 24) scale(0.5)" fill="none" stroke="#6B7280" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21H18"/><path d="m5 16 9-9 5 5-7 7H8.5z"/></g>
+<text x="1081" y="59" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_01</text>
+<line x1="1121.4" y1="56" x2="1253" y2="56" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="79" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_01</text>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 91.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="128" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_02</text>
+<line x1="1116.2" y1="125" x2="1253" y2="125" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="148" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_08</text>
+<rect x="1081" y="156" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="170.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 160.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="194" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_09</text>
+<rect x="1081" y="202" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="216.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 206.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="243" font-size="8" fill="#6B7280" font-weight="bold" text-anchor="start" >SECTION_04</text>
+<line x1="1147.4" y1="240" x2="1253" y2="240" stroke="#E5E7EB" stroke-width="1"/>
+<text x="1081" y="263" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_06</text>
+<rect x="1081" y="271" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="285.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 275.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="309" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_07</text>
+<rect x="1081" y="317" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="331.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 321.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<text x="1081" y="355" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >FILTRE_10</text>
+<rect x="1081" y="363" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="377.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tout</text>
+<g transform="translate(1236 367.5) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="1081" y="87" width="172" height="21" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="1088" y="101.5" font-size="9.5" fill="#1F2937" font-weight="normal" text-anchor="start" >2026</text>
+<rect x="168.0" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177.0" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_08</text>
+<circle cx="318.4" cy="78" r="14" fill="#0B2A5B"/>
+<g transform="translate(310.4 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0 5.4 5.4L11 21a2 2 0 0 1-3-3l9.3-9.3a4 4 0 0 0 0-5.4z"/></g>
+<text x="254.2" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >14</text>
+<circle cx="327.4" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="327.4" y1="122" x2="327.4" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="327.4" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="348.4" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="357.4" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_25</text>
+<circle cx="498.79999999999995" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(490.79999999999995 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 3v4"/><path d="M16 3v4"/></g>
+<text x="434.59999999999997" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >37,5K</text>
+<circle cx="507.79999999999995" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="507.79999999999995" y1="122" x2="507.79999999999995" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="507.79999999999995" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="528.8" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="537.8" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_26</text>
+<circle cx="679.1999999999999" cy="78" r="14" fill="#3F8F3F"/>
+<g transform="translate(671.1999999999999 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M8 3v4"/><path d="M16 3v4"/></g>
+<text x="615.0" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >24K</text>
+<circle cx="688.1999999999999" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="688.1999999999999" y1="122" x2="688.1999999999999" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="688.1999999999999" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="709.2" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="718.2" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_11</text>
+<circle cx="859.6" cy="78" r="14" fill="#0B2A5B"/>
+<g transform="translate(851.6 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></g>
+<text x="795.4000000000001" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >37 677 K€</text>
+<text x="795.4000000000001" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >89,5 % du budget</text>
+<circle cx="868.6" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="868.6" y1="122" x2="868.6" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="868.6" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="889.6" y="58" width="172.4" height="76" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="898.6" y="73" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_12</text>
+<circle cx="1040.0" cy="78" r="14" fill="#5B3F8F"/>
+<g transform="translate(1032.0 70) scale(0.6666666666666666)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/></g>
+<text x="975.8000000000001" y="111" font-size="21" fill="#1F2937" font-weight="bold" text-anchor="middle" >19 001 K€</text>
+<text x="975.8000000000001" y="124" font-size="7.5" fill="#6B7280" font-weight="normal" text-anchor="middle" >48,6 % du budget</text>
+<circle cx="1049.0" cy="123" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="1049.0" y1="122" x2="1049.0" y2="125.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="1049.0" cy="120.5" r="0.7" fill="#9CA3AF"/>
+<rect x="168.0" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="190.0" cy="169.0" r="12" fill="#E8734A"/>
+<g transform="translate(183.0 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></g>
+<text x="210.0" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_13</text>
+<text x="301.3" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >2</text>
+<rect x="318.3" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="340.3" cy="169.0" r="12" fill="#E8734A"/>
+<g transform="translate(333.3 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5"/><path d="m9.5 13 4 4"/><path d="m13.5 13-4 4"/></g>
+<text x="360.3" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_14</text>
+<text x="451.6" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >1</text>
+<rect x="468.6" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="490.6" cy="169.0" r="12" fill="#D9534F"/>
+<g transform="translate(483.6 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 2.5 20h19z"/><path d="M12 10v4"/><path d="M12 17.5v.5"/></g>
+<text x="510.6" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_15</text>
+<text x="601.9000000000001" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >6</text>
+<rect x="618.9000000000001" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="640.9000000000001" cy="169.0" r="12" fill="#5B3F8F"/>
+<g transform="translate(633.9000000000001 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></g>
+<text x="660.9000000000001" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_27</text>
+<text x="752.2" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >1</text>
+<rect x="769.2" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="791.2" cy="169.0" r="12" fill="#D9534F"/>
+<g transform="translate(784.2 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 16a8 8 0 1 1 16 0"/><path d="m12 16 4-6"/></g>
+<text x="811.2" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_28</text>
+<text x="811.2" y="173.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_29</text>
+<text x="902.5" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >6</text>
+<rect x="919.5" y="145" width="142.3" height="48" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<circle cx="941.5" cy="169.0" r="12" fill="#0B2A5B"/>
+<g transform="translate(934.5 162.0) scale(0.5833333333333334)" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12"/><path d="M6 21h12"/><path d="M7 3c0 5 5 6 5 9s-5 4-5 9"/><path d="M17 3c0 5-5 6-5 9s5 4 5 9"/></g>
+<text x="961.5" y="162.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_30</text>
+<text x="961.5" y="173.0" font-size="8.5" fill="#6B7280" font-weight="normal" text-anchor="start" >KPI_29</text>
+<text x="1052.8" y="175.0" font-size="17" fill="#1F2937" font-weight="bold" text-anchor="end" >3</text>
+<rect x="168" y="205" width="313" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="226" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_12</text>
+<circle cx="180" cy="242.5" r="3" fill="#0B2A5B"/>
+<text x="186" y="245" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_08</text>
+<circle cx="289.55" cy="242.5" r="3" fill="#2E9E8F"/>
+<text x="295.55" y="245" font-size="7" fill="#6B7280" font-weight="normal" text-anchor="start" >SERIE_09</text>
+<rect x="181.0" y="276.0" width="5" height="40.0" rx="0" fill="#0B2A5B"  />
+<rect x="186.0" y="290.11764705882354" width="5" height="25.88235294117647" rx="0" fill="#2E9E8F"  />
+<text x="183.5" y="274.0" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >2,6K</text>
+<text x="188.5" y="288.11764705882354" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >2,2K</text>
+<text x="188.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 188.0 322)">Maint-Projet 01</text>
+<rect x="195.6" y="307.7647058823529" width="5" height="8.23529411764706" rx="0" fill="#0B2A5B"  />
+<rect x="200.6" y="311.29411764705884" width="5" height="4.705882352941177" rx="0" fill="#2E9E8F"  />
+<text x="198.1" y="305.7647058823529" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,9K</text>
+<text x="203.1" y="309.29411764705884" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,3K</text>
+<text x="202.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 202.6 322)">Maint-Projet 02</text>
+<rect x="210.2" y="304.2352941176471" width="5" height="11.764705882352942" rx="0" fill="#0B2A5B"  />
+<rect x="215.2" y="305.4117647058824" width="5" height="10.588235294117647" rx="0" fill="#2E9E8F"  />
+<text x="212.7" y="302.2352941176471" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,3K</text>
+<text x="217.7" y="303.4117647058824" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,9K</text>
+<text x="217.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 217.2 322)">Maint-Projet 03</text>
+<rect x="224.8" y="310.11764705882354" width="5" height="5.882352941176471" rx="0" fill="#0B2A5B"  />
+<rect x="229.8" y="312.47058823529414" width="5" height="3.5294117647058822" rx="0" fill="#2E9E8F"  />
+<text x="227.3" y="308.11764705882354" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,5K</text>
+<text x="232.3" y="310.47058823529414" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,4K</text>
+<text x="231.8" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 231.8 322)">Maint-Projet 04</text>
+<rect x="239.4" y="305.4117647058824" width="5" height="10.588235294117647" rx="0" fill="#0B2A5B"  />
+<rect x="244.4" y="306.5882352941176" width="5" height="9.411764705882353" rx="0" fill="#2E9E8F"  />
+<text x="241.9" y="303.4117647058824" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="246.9" y="304.5882352941176" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="246.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 246.4 322)">Maint-Projet 05</text>
+<rect x="254.0" y="294.8235294117647" width="5" height="21.176470588235293" rx="0" fill="#0B2A5B"  />
+<rect x="259.0" y="301.88235294117646" width="5" height="14.117647058823529" rx="0" fill="#2E9E8F"  />
+<text x="256.5" y="292.8235294117647" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >2,1K</text>
+<text x="261.5" y="299.88235294117646" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,7K</text>
+<text x="261.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 261.0 322)">Maint-Projet 06</text>
+<rect x="268.6" y="308.94117647058823" width="5" height="7.0588235294117645" rx="0" fill="#0B2A5B"  />
+<rect x="273.6" y="311.29411764705884" width="5" height="4.705882352941177" rx="0" fill="#2E9E8F"  />
+<text x="271.1" y="306.94117647058823" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,5K</text>
+<text x="276.1" y="309.29411764705884" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,5K</text>
+<text x="275.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 275.6 322)">Maint-Projet 07</text>
+<rect x="283.2" y="306.5882352941176" width="5" height="9.411764705882353" rx="0" fill="#0B2A5B"  />
+<rect x="288.2" y="307.7647058823529" width="5" height="8.23529411764706" rx="0" fill="#2E9E8F"  />
+<text x="285.7" y="304.5882352941176" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,9K</text>
+<text x="290.7" y="305.7647058823529" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="290.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 290.2 322)">Maint-Projet 08</text>
+<rect x="297.8" y="304.2352941176471" width="5" height="11.764705882352942" rx="0" fill="#0B2A5B"  />
+<rect x="302.8" y="305.4117647058824" width="5" height="10.588235294117647" rx="0" fill="#2E9E8F"  />
+<text x="300.3" y="302.2352941176471" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,9K</text>
+<text x="305.3" y="303.4117647058824" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="304.8" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 304.8 322)">Maint-Projet 09</text>
+<rect x="312.4" y="307.7647058823529" width="5" height="8.23529411764706" rx="0" fill="#0B2A5B"  />
+<rect x="317.4" y="310.11764705882354" width="5" height="5.882352941176471" rx="0" fill="#2E9E8F"  />
+<text x="314.9" y="305.7647058823529" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,5K</text>
+<text x="319.9" y="308.11764705882354" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,4K</text>
+<text x="319.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 319.4 322)">Maint-Projet 10</text>
+<rect x="327.0" y="305.4117647058824" width="5" height="10.588235294117647" rx="0" fill="#0B2A5B"  />
+<rect x="332.0" y="308.94117647058823" width="5" height="7.0588235294117645" rx="0" fill="#2E9E8F"  />
+<text x="329.5" y="303.4117647058824" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,6K</text>
+<text x="334.5" y="306.94117647058823" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,7K</text>
+<text x="334.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 334.0 322)">Maint-Projet 11</text>
+<rect x="341.6" y="299.52941176470586" width="5" height="16.47058823529412" rx="0" fill="#0B2A5B"  />
+<rect x="346.6" y="304.2352941176471" width="5" height="11.764705882352942" rx="0" fill="#2E9E8F"  />
+<text x="344.1" y="297.52941176470586" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,1K</text>
+<text x="349.1" y="302.2352941176471" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,7K</text>
+<text x="348.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 348.6 322)">Maint-Projet 12</text>
+<rect x="356.2" y="291.29411764705884" width="5" height="24.705882352941178" rx="0" fill="#0B2A5B"  />
+<rect x="361.2" y="296.0" width="5" height="20.0" rx="0" fill="#2E9E8F"  />
+<text x="358.7" y="289.29411764705884" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,4K</text>
+<text x="363.7" y="294.0" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >2,2K</text>
+<text x="363.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 363.2 322)">Maint-Projet 13</text>
+<rect x="370.79999999999995" y="307.7647058823529" width="5" height="8.23529411764706" rx="0" fill="#0B2A5B"  />
+<rect x="375.79999999999995" y="308.94117647058823" width="5" height="7.0588235294117645" rx="0" fill="#2E9E8F"  />
+<text x="373.29999999999995" y="305.7647058823529" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,9K</text>
+<text x="378.29999999999995" y="306.94117647058823" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,7K</text>
+<text x="377.79999999999995" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 377.79999999999995 322)">Maint-Projet 14</text>
+<rect x="385.4" y="301.88235294117646" width="5" height="14.117647058823529" rx="0" fill="#0B2A5B"  />
+<rect x="390.4" y="304.2352941176471" width="5" height="11.764705882352942" rx="0" fill="#2E9E8F"  />
+<text x="387.9" y="299.88235294117646" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,0K</text>
+<text x="392.9" y="302.2352941176471" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="392.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 392.4 322)">Maint-Projet 15</text>
+<rect x="400.0" y="305.4117647058824" width="5" height="10.588235294117647" rx="0" fill="#0B2A5B"  />
+<rect x="405.0" y="307.7647058823529" width="5" height="8.23529411764706" rx="0" fill="#2E9E8F"  />
+<text x="402.5" y="303.4117647058824" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="407.5" y="305.7647058823529" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,7K</text>
+<text x="407.0" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 407.0 322)">Maint-Projet 16</text>
+<rect x="414.6" y="297.1764705882353" width="5" height="18.823529411764707" rx="0" fill="#0B2A5B"  />
+<rect x="419.6" y="299.52941176470586" width="5" height="16.47058823529412" rx="0" fill="#2E9E8F"  />
+<text x="417.1" y="295.1764705882353" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,2K</text>
+<text x="422.1" y="297.52941176470586" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,3K</text>
+<text x="421.6" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 421.6 322)">Maint-Projet 17</text>
+<rect x="429.2" y="306.5882352941176" width="5" height="9.411764705882353" rx="0" fill="#0B2A5B"  />
+<rect x="434.2" y="310.11764705882354" width="5" height="5.882352941176471" rx="0" fill="#2E9E8F"  />
+<text x="431.7" y="304.5882352941176" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,6K</text>
+<text x="436.7" y="308.11764705882354" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,7K</text>
+<text x="436.2" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 436.2 322)">Maint-Projet 18</text>
+<rect x="443.8" y="303.05882352941177" width="5" height="12.941176470588236" rx="0" fill="#0B2A5B"  />
+<rect x="448.8" y="306.5882352941176" width="5" height="9.411764705882353" rx="0" fill="#2E9E8F"  />
+<text x="446.3" y="301.05882352941177" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,5K</text>
+<text x="451.3" y="304.5882352941176" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >0,8K</text>
+<text x="450.8" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 450.8 322)">Maint-Projet 19</text>
+<rect x="458.4" y="288.94117647058823" width="5" height="27.058823529411764" rx="0" fill="#0B2A5B"  />
+<rect x="463.4" y="296.0" width="5" height="20.0" rx="0" fill="#2E9E8F"  />
+<text x="460.9" y="286.94117647058823" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >1,8K</text>
+<text x="465.9" y="294.0" font-size="4.5" fill="#1F2937" font-weight="normal" text-anchor="middle" >2,3K</text>
+<text x="465.4" y="322" font-size="5.5" fill="#6B7280" text-anchor="end" transform="rotate(-45 465.4 322)">Maint-Projet 20</text>
+<rect x="489" y="205" width="314" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="498" y="220" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_05</text>
+<circle cx="755" cy="216" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="755" y1="215" x2="755" y2="218.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="755" cy="213.5" r="0.7" fill="#9CA3AF"/>
+<rect x="489" y="230" width="314" height="23" rx="0" fill="#0B2A5B"  />
+<text x="497" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_03</text>
+<text x="642" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_12</text>
+<text x="686" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_13</text>
+<text x="747" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_14</text>
+<text x="795" y="244.5" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_15</text>
+<text x="497" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu D</text>
+<text x="642" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 306</text>
+<text x="686" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >4 067</text>
+<text x="747" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+417</text>
+<text x="795" y="271" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+16,1 %</text>
+<text x="497" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu A</text>
+<text x="642" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 841</text>
+<text x="686" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 569</text>
+<text x="747" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+503</text>
+<text x="795" y="297" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+22,9 %</text>
+<text x="497" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu J</text>
+<text x="642" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 751</text>
+<text x="686" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 662</text>
+<text x="747" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+256</text>
+<text x="795" y="323" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+12,0 %</text>
+<text x="497" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu C</text>
+<text x="642" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 280</text>
+<text x="686" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 362</text>
+<text x="747" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+187</text>
+<text x="795" y="349" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+4,9 %</text>
+<text x="497" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Tribu K</text>
+<text x="642" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 526</text>
+<text x="686" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >3 467</text>
+<text x="747" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+106</text>
+<text x="795" y="375" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+3,0 %</text>
+<rect x="811" y="205" width="251" height="182" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="820" y="227" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_13</text>
+<path d="M875.00,256.00 A44,44 0 0 1 894.03,339.67 L886.25,323.44 A26,26 0 0 0 875.00,274.00 Z" fill="#D9534F" stroke="white" stroke-width="1"/>
+<path d="M894.03,339.67 A44,44 0 0 1 834.17,316.40 L850.87,309.69 A26,26 0 0 0 886.25,323.44 Z" fill="#E8734A" stroke="white" stroke-width="1"/>
+<path d="M834.17,316.40 A44,44 0 0 1 841.51,271.47 L855.21,283.14 A26,26 0 0 0 850.87,309.69 Z" fill="#3F8F3F" stroke="white" stroke-width="1"/>
+<path d="M841.51,271.47 A44,44 0 0 1 875.00,256.00 L875.00,274.00 A26,26 0 0 0 855.21,283.14 Z" fill="#E0B23A" stroke="white" stroke-width="1"/>
+<circle cx="953" cy="282" r="3.5" fill="#D9534F"/>
+<text x="961" y="285" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_42 · 14K · 55,88 %</text>
+<circle cx="953" cy="299" r="3.5" fill="#E8734A"/>
+<text x="961" y="302" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_43 · 7K · 22,42 %</text>
+<circle cx="953" cy="316" r="3.5" fill="#3F8F3F"/>
+<text x="961" y="319" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_44 · 7K · 12,46 %</text>
+<circle cx="953" cy="333" r="3.5" fill="#E0B23A"/>
+<text x="961" y="336" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >DIM_45 · 5K · 15,35 %</text>
+<rect x="168" y="397" width="443" height="313" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="177" y="413" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_07</text>
+<circle cx="482.0" cy="409" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="482.0" y1="408" x2="482.0" y2="411.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="482.0" cy="406.5" r="0.7" fill="#9CA3AF"/>
+<rect x="510" y="400" width="92" height="20" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="518" y="413.5" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >Top 10</text>
+<g transform="translate(589 405) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="168" y="425" width="443" height="22" rx="0" fill="#0B2A5B"  />
+<text x="176" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_16</text>
+<text x="252" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_17</text>
+<text x="478" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_18</text>
+<text x="548" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_19</text>
+<text x="606" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_14</text>
+<text x="176" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000001</text>
+<text x="252" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 01</text>
+<text x="478" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >953</text>
+<text x="548" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 416</text>
+<text x="606" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+532</text>
+<text x="176" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000002</text>
+<text x="252" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 02</text>
+<text x="478" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 543</text>
+<text x="548" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 111</text>
+<text x="606" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+472</text>
+<text x="176" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000003</text>
+<text x="252" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 03</text>
+<text x="478" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 494</text>
+<text x="548" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 504</text>
+<text x="606" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+358</text>
+<text x="176" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000004</text>
+<text x="252" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 04</text>
+<text x="478" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 648</text>
+<text x="548" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 014</text>
+<text x="606" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+402</text>
+<text x="176" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000005</text>
+<text x="252" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 05</text>
+<text x="478" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 281</text>
+<text x="548" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 924</text>
+<text x="606" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+303</text>
+<text x="176" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000006</text>
+<text x="252" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 06</text>
+<text x="478" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 386</text>
+<text x="548" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 148</text>
+<text x="606" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+165</text>
+<text x="176" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000007</text>
+<text x="252" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 07</text>
+<text x="478" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 272</text>
+<text x="548" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 831</text>
+<text x="606" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+179</text>
+<text x="176" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000008</text>
+<text x="252" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 08</text>
+<text x="478" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 396</text>
+<text x="548" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 377</text>
+<text x="606" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+237</text>
+<text x="176" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000009</text>
+<text x="252" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 09</text>
+<text x="478" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >991</text>
+<text x="548" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 232</text>
+<text x="606" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+174</text>
+<text x="176" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000010</text>
+<text x="252" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 10</text>
+<text x="478" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >422</text>
+<text x="548" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 080</text>
+<text x="606" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >+206</text>
+<rect x="620" y="397" width="442" height="313" rx="4" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="629" y="413" font-size="11" fill="#1F2937" font-weight="bold" text-anchor="start" >VISUEL_08</text>
+<circle cx="934.0" cy="409" r="4.5" fill="none" stroke="#9CA3AF" stroke-width="1"/><line x1="934.0" y1="408" x2="934.0" y2="411.5" stroke="#9CA3AF" stroke-width="1.2"/><circle cx="934.0" cy="406.5" r="0.7" fill="#9CA3AF"/>
+<rect x="961" y="400" width="92" height="20" rx="3" fill="white" stroke="#E5E7EB" stroke-width="1" />
+<text x="969" y="413.5" font-size="9" fill="#1F2937" font-weight="normal" text-anchor="start" >Top 10</text>
+<g transform="translate(1040 405) scale(0.4583333333333333)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></g>
+<rect x="620" y="425" width="442" height="22" rx="0" fill="#0B2A5B"  />
+<text x="626" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_16</text>
+<text x="703" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="start" >COL_17</text>
+<text x="932" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_18</text>
+<text x="994" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_20</text>
+<text x="1057" y="439.0" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" ></text>
+<text x="626" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000011</text>
+<text x="703" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 11</text>
+<text x="932" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 303</text>
+<text x="994" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 684</text>
+<text x="1057" y="461" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >142,1 %</text>
+<text x="626" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000012</text>
+<text x="703" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 12</text>
+<text x="932" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >653</text>
+<text x="994" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 499</text>
+<text x="1057" y="487" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >101,0 %</text>
+<text x="626" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000013</text>
+<text x="703" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 13</text>
+<text x="932" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >660</text>
+<text x="994" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >997</text>
+<text x="1057" y="513" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >145,2 %</text>
+<text x="626" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000014</text>
+<text x="703" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 14</text>
+<text x="932" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >688</text>
+<text x="994" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 280</text>
+<text x="1057" y="539" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >164,7 %</text>
+<text x="626" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000003</text>
+<text x="703" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 03</text>
+<text x="932" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 090</text>
+<text x="994" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 271</text>
+<text x="1057" y="565" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >117,3 %</text>
+<text x="626" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000015</text>
+<text x="703" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 15</text>
+<text x="932" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 065</text>
+<text x="994" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >2 534</text>
+<text x="1057" y="591" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >126,9 %</text>
+<text x="626" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000006</text>
+<text x="703" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 06</text>
+<text x="932" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 337</text>
+<text x="994" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >921</text>
+<text x="1057" y="617" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >83,3 %</text>
+<text x="626" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000009</text>
+<text x="703" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 09</text>
+<text x="932" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >723</text>
+<text x="994" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 211</text>
+<text x="1057" y="643" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >95,1 %</text>
+<text x="626" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000016</text>
+<text x="703" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 16</text>
+<text x="932" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >843</text>
+<text x="994" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >534</text>
+<text x="1057" y="669" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >70,9 %</text>
+<text x="626" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >PRO0000004</text>
+<text x="703" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="start" >Maint-Projet 04</text>
+<text x="932" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 060</text>
+<text x="994" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >1 617</text>
+<text x="1057" y="695" font-size="7.5" fill="#1F2937" font-weight="normal" text-anchor="end" >126,1 %</text>
+<text x="1057" y="434" font-size="7.5" fill="white" font-weight="bold" text-anchor="end" >COL_21</text>
+
+<rect x="169.0" y="82" width="133" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="349.4" y="82" width="133" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="529.8" y="82" width="133" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="710.2" y="82" width="133" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="890.6" y="82" width="133" height="51" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="246.0" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="396.3" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="546.6" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="696.9000000000001" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="847.2" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="997.5" y="146.0" width="62" height="46" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="169.0" y="236" width="311" height="150" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="490.0" y="230" width="312" height="156" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="812.0" y="237" width="249" height="149" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="169.0" y="423" width="441" height="286" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+<rect x="621.0" y="423" width="440" height="286" fill="#D9534F" fill-opacity="0.42" stroke="#D9534F" stroke-width="1"/>
+</svg>

@@ -25,6 +25,14 @@ sur un second écran pendant le montage.
 > PNG, JPG, BMP, GIF. Les PNG de `fonds/png/` sont exportés en 2560 × 1440,
 > soit 2× le canevas, pour rester nets sur écran HiDPI.
 
+> 📌 **Variante A — garder la maquette complète en arrière-plan.** C'est
+> possible, et cela dispense de reconstruire tout le décor (barre latérale,
+> libellés, icônes, titres de visuels). En contrepartie, chaque zone dynamique
+> doit être recouverte par un rectangle blanc opaque. Les coordonnées de ces
+> zones sont dans [`04-variante-fond-complet.md`](04-variante-fond-complet.md).
+> Le reste de ce guide — modèle, mesures, choix et réglages des visuels —
+> s'applique mot pour mot aux deux variantes.
+
 ---
 
 ## Étape 1 · Créer le fichier et régler le canevas
